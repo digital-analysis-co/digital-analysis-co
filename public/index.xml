@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Hugo website</title>
+    <link>/</link>
+    <description>Recent content on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Tracking &amp;amp; Data Capture Google Analytics 4 Google Analytics is ubiquitous and commonly the source of truth in web, digital and marketing acquisition analytics. Google Analytics can be used stand alone or to augment your back end data with a rich set of attributes including attribution, device info, landing pages and site engagement data.
+Google Analytics is a tool for analyzing website traffic and user behavior, providing valuable insights for marketing, acquisition, and product analytics.</description>
+    </item>
+    
+    <item>
+      <title>Digital Analysis Company</title>
+      <link>/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/</guid>
+      <description>We specialize in providing data-driven insights to businesses, helping them make informed decisions to drive growth and achieve their goals.</description>
+    </item>
+    
+  </channel>
+</rss>

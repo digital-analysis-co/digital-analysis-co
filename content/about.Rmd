@@ -1,0 +1,84 @@
+---
+title: "About"
+categories: []
+tags: []
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Tracking & Data Capture
+
+### Google Analytics 4
+
+Google Analytics is ubiquitous and commonly the source of truth in web, digital and marketing acquisition analytics. Google Analytics can be used stand alone or to augment your back end data with a rich set of attributes including attribution, device info, landing pages and site engagement data.
+
+Google Analytics is a tool for analyzing website traffic and user behavior, providing valuable insights for marketing, acquisition, and product analytics. It helps businesses track campaign success, measure ROI, and optimize marketing strategies, as well as identify the most effective acquisition channels and user demographics. By analyzing user behavior on product pages and in the checkout process, businesses can improve their offerings and increase conversion rates. Google Analytics is essential for businesses looking to make data-driven decisions and improve their online presence and growth.
+
+Google Analytics works best when it's implemented properly, by a measurement plan along with testing.
+
+### Pixels
+
+Marketing pixels are small pieces of code that are added to a website or landing page to track user behavior and collect data on their browsing and purchasing habits. This data can then be used to optimize marketing campaigns and increase conversion rates.
+
+One of the most common marketing pixels is the Meta (Facebook) pixel. This pixel allows advertisers to track website visitors and their actions, such as page views, purchases, and sign-ups. By analyzing this data, acquisition teams can create more targeted and effective ad campaigns, improve their ad targeting, and track the success of their campaigns.
+
+Similarly, the Google AdWords tracking pixel allows advertisers to track user behavior on their website, such as how many people have clicked on an ad and whether they completed a purchase or filled out a form. This information can be used to optimize ad campaigns, target specific demographics, and increase conversion rates.
+
+Other common marketing pixels include the LinkedIn Insight tag, Twitter pixel, and Pinterest tag. Each of these tools provides valuable data on user behavior, allowing advertisers to create more effective campaigns and improve their overall marketing strategy.
+
+Marketing pixels are essential tools for any business looking to optimize their marketing campaigns and increase conversion rates. By properly setting up these pixels, businesses can create more targeted and effective marketing campaigns.
+
+### A/B Testing
+
+Digital A/B testing is a crucial component of website optimization. By comparing two versions of a webpage, businesses can gather valuable data on user behavior and make data-driven decisions to improve website performance. A/B testing can be used to optimize landing pages, email campaigns, and other website elements, leading to increased user engagement, improved conversion rates, and ultimately, business growth.
+
+Integrating an A/B testing tool like Optimizely with Google Analytics provides several benefits. It allows for tracking and analyzing test results within the Google Analytics platform, allowing for deeper analysis of user behavior and test results. You can also use Google Analytics data to inform your A/B testing strategies and identify areas of your website that need improvement. By measuring the impact of A/B tests on website metrics, you can optimize your website for maximum performance and drive growth. Overall, this integration provides businesses with deeper insights into user behavior, improves their A/B testing strategies, and optimizes website performance for increased engagement and conversion rates.
+
+## Regular Reporting and Dashboards
+
+We provide you with easy-to-use dashboards that display all of your most important metrics in one place.
+
+Our dashboards are customizable, so you can track the metrics that matter most to your business. Report subscription, leadgen or ecom metrics, including subscriptions, trial to paid, purchases, leads and life time value.
+
+We use a variety of powerful tools, including Looker and Data Studio, as well as simple Google Sheets connected to an API or database. We gather, analyze, and present your data in a way that is easy to understand. With our dashboards, you'll be able to quickly identify areas of success and areas for improvement, allowing you to make adjustments and optimize your campaigns for maximum impact.
+
+## Ad Hoc Analysis
+
+Digital Analysis Company helps answer business questions. Why has your conversion rate trend changed? What is the impact of your lead capture forms and do they eventually result in future conversions? What variables impact trial to paid conversion rate and can you move the needle? For each additional dollar you spend on a given channel, how much can you expect to get back in revenue? What is the life time value of leads and new users?
+
+## Analytics Development
+
+Develop automated training and prediction workflows using Github Actions, Docker, R, Python or whichever analytics development stack your org uses.
+
+## Advanced Analytics
+
+Advanced analytics goes beyond business inteligence, dashboards and reporting to uncover hidden patterns, correlations, and causality in data.
+
+### Lifetime Value
+
+Understanding customer lifetime value (LTV) is crucial for businesses because it helps them make strategic decisions about acquisition, marketing, and product optimization. By knowing the value of a customer over their entire lifetime, businesses can optimize their spending and efforts while focusing on the most profitable channels and customers.
+
+LTV can be measured on an individual or cohort basis using a variety of techniques including modeling decay functions (subscription business model) or the popular 'Buy till you die' (btyd) models (eCommerce).
+
+### Statistical Models
+
+#### Regression Models
+
+Regressions are unique in that they are useful for both prediction and explanation. Understand the relationship between specific variables and outcomes, as well as effect sizes of incremental changes in input variables.
+
+Regression models can be stand alone analysis or presented as interactive models using Shiny or even just Google sheets. These allowing business users to adjust inputs and see the impact on the target variable of these adjustments.
+
+## Projects
+
+## Templates
+
+### A/B Testing in Google Sheets
+
+### Web Analytics Data Model in Google Sheets
+
+### Rstudio, Shiny and HTTPD environment with Docker
+
+Develop models or Shiny Apps and deploy using httpd, all neatly encapsulated with Docker.
