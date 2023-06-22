@@ -1,0 +1,20 @@
+---
+title: "Projects"
+categories: []
+tags: []
+output: blogdown::html_page
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Templates
+
+### A/B Testing in Google Sheets
+
+### Web Analytics Data Model in Google Sheets
+
+### Rstudio, Shiny and HTTPD environment with Docker
+
+Develop models or Shiny Apps and deploy using httpd, all neatly encapsulated with Docker.

@@ -73,15 +73,3 @@ LTV can be measured on an individual or cohort basis using a variety of techniqu
 Regressions are unique in that they are useful for both prediction and explanation. Understand the relationship between specific variables and outcomes, as well as effect sizes of incremental changes in input variables.
 
 Regression models can be stand alone analysis or presented as interactive models using Shiny or even just Google sheets. These allowing business users to adjust inputs and see the impact on the target variable of these adjustments.
-
-## Projects
-
-## Templates
-
-### A/B Testing in Google Sheets
-
-### Web Analytics Data Model in Google Sheets
-
-### Rstudio, Shiny and HTTPD environment with Docker
-
-Develop models or Shiny Apps and deploy using httpd, all neatly encapsulated with Docker.
