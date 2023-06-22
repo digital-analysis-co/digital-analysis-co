@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>digitalanalysis.co/services/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>digitalanalysis.co/categories/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>digitalanalysis.co/</loc>
+    <loc>/projects/</loc>
   </url><url>
-    <loc>digitalanalysis.co/projects/</loc>
+    <loc>/services/</loc>
   </url><url>
-    <loc>digitalanalysis.co/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

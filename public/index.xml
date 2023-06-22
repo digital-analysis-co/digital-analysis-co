@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Analysis Company on Digital Analysis Co</title>
-    <link>digitalanalysis.co/</link>
+    <link>/</link>
     <description>Recent content in Digital Analysis Company on Digital Analysis Co</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="digitalanalysis.co/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>digitalanalysis.co/services/</link>
+      <title>Projects</title>
+      <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>digitalanalysis.co/services/</guid>
-      <description>Tracking &amp;amp; Data Capture Regular Reporting and Dashboards Ad Hoc Analysis Analytics Development Advanced Analytics   Tracking &amp;amp; Data Capture Google Analytics 4 Google Analytics is ubiquitous and commonly the source of truth in web, digital and marketing acquisition analytics. Google Analytics can be used stand alone or to augment your back end data with a rich set of attributes including attribution, device info, landing pages and site engagement data.</description>
+      <guid>/projects/</guid>
+      <description> Templates A/B Testing in Google Sheets  Web Analytics Data Model in Google Sheets  Rstudio, Shiny and HTTPD environment with Docker Develop models or Shiny Apps and deploy using httpd, all neatly encapsulated with Docker.
+  </description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>digitalanalysis.co/projects/</link>
+      <title>Services</title>
+      <link>/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>digitalanalysis.co/projects/</guid>
-      <description> Templates A/B Testing in Google Sheets  Web Analytics Data Model in Google Sheets  Rstudio, Shiny and HTTPD environment with Docker Develop models or Shiny Apps and deploy using httpd, all neatly encapsulated with Docker.
-  </description>
+      <guid>/services/</guid>
+      <description>Tracking &amp;amp; Data Capture Regular Reporting and Dashboards Ad Hoc Analysis Analytics Development Advanced Analytics   Tracking &amp;amp; Data Capture Google Analytics 4 Google Analytics is ubiquitous and commonly the source of truth in web, digital and marketing acquisition analytics. Google Analytics can be used stand alone or to augment your back end data with a rich set of attributes including attribution, device info, landing pages and site engagement data.</description>
     </item>
     
   </channel>
