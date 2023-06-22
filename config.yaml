@@ -1,4 +1,4 @@
-baseurl: digitalanalysis.co/home
+baseurl: digitalanalysis.co/
 languageCode: en-US
 title: Digital Analysis Co
 theme: hugo-lithium
@@ -13,7 +13,7 @@ permalinks:
 menu:
   main:
     - name: Home
-      url: /home
+      url: /index
     - name: About
       url: /about/
 
