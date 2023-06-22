@@ -12,8 +12,6 @@ permalinks:
   post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: Home
-      url: /index
     - name: About
       url: /about/
 

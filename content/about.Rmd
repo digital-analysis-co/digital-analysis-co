@@ -2,7 +2,10 @@
 title: "About"
 categories: []
 tags: []
-output: html_document
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}

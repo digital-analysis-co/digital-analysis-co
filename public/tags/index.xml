@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Digital Analysis Co</title>
-    <link>digitalanalysis.co/home/tags/</link>
+    <link>digitalanalysis.co/tags/</link>
     <description>Recent content in Tags on Digital Analysis Co</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="digitalanalysis.co/home/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="digitalanalysis.co/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
