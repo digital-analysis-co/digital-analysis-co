@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on A Hugo website</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on A Hugo website</description>
+    <title>Tags on Digital Analysis Co</title>
+    <link>digitalanalysis.co/home/tags/</link>
+    <description>Recent content in Tags on Digital Analysis Co</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="digitalanalysis.co/home/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
