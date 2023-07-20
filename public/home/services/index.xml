@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Digital Analysis Company</title>
-    <link>https://example.com/home/services/</link>
+    <link>/home/services/</link>
     <description>Recent content in Services on Digital Analysis Company</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://example.com/home/services/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/home/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Analytics &amp; GTM</title>
-      <link>https://example.com/home/services/service3/</link>
+      <link>/home/services/service3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/home/services/service3/</guid>
+      <guid>/home/services/service3/</guid>
       <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well thought out and planned way.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Lifetime Value &amp; Retention</title>
-      <link>https://example.com/home/services/service2/</link>
+      <link>/home/services/service2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/home/services/service2/</guid>
+      <guid>/home/services/service2/</guid>
       <description>&lt;p&gt;The use of decay and growth functions enable businesses to maximize customer lifetime value, optimize profitability, and drive growth. Measure cohorts or users.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Reporting &amp; Dashboards</title>
-      <link>https://example.com/home/services/service1/</link>
+      <link>/home/services/service1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/home/services/service1/</guid>
+      <guid>/home/services/service1/</guid>
       <description>&lt;p&gt;We provide you with easy-to-use dashboards that display all of your most important metrics in one place. Ad hoc analysis and business questions often end up as new dashboards.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Statistical Models</title>
-      <link>https://example.com/home/services/service4/</link>
+      <link>/home/services/service4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/home/services/service4/</guid>
+      <guid>/home/services/service4/</guid>
       <description>&lt;p&gt;Understand and explain the relationship between variables and outcomes, as well as effect sizes of incremental changes in input variables. Get directional and quantitative estimates.&lt;/p&gt;</description>
     </item>
     
