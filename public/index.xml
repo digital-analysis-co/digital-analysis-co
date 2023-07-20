@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Analysis Company</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Digital Analysis Company</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download original template</title>
+      <link>https://example.com/home/downloads/download1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/downloads/download1/</guid>
+      <description>A simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>Welcome to Digital Analysis Company, your digital analytics partner. We specialize in data solutions to optimize your marketing, acquisition and product efforts.
+We are a team of expert analysts and data scientists who are dedicated to your success. From comprehensive web and app analytics to insightful reporting, we work to craft powerful data strategies for your online growth.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://example.com/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://example.com/post/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Vivamus Lacus Mauris</title>
+      <link>https://example.com/post/vivamus-lacus-mauris/</link>
+      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/vivamus-lacus-mauris/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, rerum voluptates veniam. Esse, nihil, ea, eaque, quos cum id tempore voluptate nisi nemo debitis impedit officiis culpa repellat voluptatum in aperiam error quo minima ratione ex pariatur maxime eligendi dolore nesciunt molestiae enim alias atque commodi delectus perferendis. Blanditiis, iste placeat nostrum in! Eligendi, omnis, unde, quos ullam nesciunt molestias quis a saepe nisi distinctio molestiae voluptate obcaecati officiis consequuntur similique aspernatur rerum sequi placeat iure quaerat itaque libero officia recusandae ad corrupti aperiam cum beatae.</description>
+    </item>
+    
+    <item>
+      <title>Download HUGO template</title>
+      <link>https://example.com/home/downloads/download2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/downloads/download2/</guid>
+      <description>Another simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics &amp; GTM</title>
+      <link>https://example.com/home/services/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/services/service3/</guid>
+      <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well thought out and planned way.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lifetime Value &amp; Retention</title>
+      <link>https://example.com/home/services/service2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/services/service2/</guid>
+      <description>&lt;p&gt;The use of decay and growth functions enable businesses to maximize customer lifetime value, optimize profitability, and drive growth. Measure cohorts or users.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reporting &amp; Dashboards</title>
+      <link>https://example.com/home/services/service1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/services/service1/</guid>
+      <description>&lt;p&gt;We provide you with easy-to-use dashboards that display all of your most important metrics in one place. Ad hoc analysis and business questions often end up as new dashboards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistical Models</title>
+      <link>https://example.com/home/services/service4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/services/service4/</guid>
+      <description>&lt;p&gt;Understand and explain the relationship between variables and outcomes, as well as effect sizes of incremental changes in input variables. Get directional and quantitative estimates.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>subheader</title>
+      <link>https://example.com/home/subheader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/home/subheader/</guid>
+      <description>We specialize in providing data-driven insights to businesses, helping them make informed decisions to drive growth and achieve their goals.</description>
+    </item>
+    
+  </channel>
+</rss>
