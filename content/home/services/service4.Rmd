@@ -1,5 +1,5 @@
 ---
-title: "Statistical Models"
+title: "Machine Learning & Stats Models"
 output: html_document
 ---
 

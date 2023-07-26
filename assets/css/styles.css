@@ -234,7 +234,7 @@ a:hover {
   height: 140px;
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 #head img.img-circle {
@@ -253,6 +253,7 @@ a:hover {
   font-family: Alice, Georgia, serif;
   font-size: 49px;
   font-size: 3.0625rem;
+  background-color: white
 }
 #head .title a {
   text-decoration: none;

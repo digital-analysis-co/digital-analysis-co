@@ -6,10 +6,10 @@ params:
   DateForm: ''
   address: ''
   author: ''
-  avatar: #images/lambda.png
+  avatar: '' #images/lambda.png
   avatarclass: circle
   background: ''
-  banner: images/background_chart.png
+  banner: images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
   description: ''
   disqus:
     site: hugo-initio-site.disqus.com

@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta & TikTok tags using Google-Tag-Manager in a well thought out and planned way.
+Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta & TikTok tags using Google-Tag-Manager in a well well planned and thoroughly verified way.
 
 <!--more-->
 
