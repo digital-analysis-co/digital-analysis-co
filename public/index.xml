@@ -40,7 +40,8 @@ We are a team of expert analysts and data scientists who are dedicated to your s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/home/recentworks/ga4_extract_to_aws/</guid>
-      <description>&amp;hellip;</description>
+      <description>Send Daily GA4 Data to Amazon Via Big Query Summary Recently on a couple of occasions I have been asked to move GA4&amp;rsquo;s event data export into Amazon Web Services. Within GA4 you can configure an automatic export into a free Big Query sandbox. Data are retained for a rolling 60 days. Details. The export is only for Big Query.
+You can export to a free instance of BigQuery (BigQuery sandbox), but exports that exceed the sandbox limits incur charges</description>
     </item>
     
     <item>
@@ -49,7 +50,7 @@ We are a team of expert analysts and data scientists who are dedicated to your s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/home/services/service3/</guid>
-      <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well thought out and planned way.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well well planned and thoroughly verified way.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -71,21 +72,21 @@ We are a team of expert analysts and data scientists who are dedicated to your s
     </item>
     
     <item>
+      <title>Machine Learning &amp; Stats Models</title>
+      <link>/home/services/service4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/services/service4/</guid>
+      <description>&lt;p&gt;Understand and explain the relationship between variables and outcomes, as well as effect sizes of incremental changes in input variables. Get directional and quantitative estimates.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Reporting &amp; Dashboards</title>
       <link>/home/services/service1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/home/services/service1/</guid>
       <description>&lt;p&gt;We provide you with easy-to-use dashboards that display all of your most important metrics in one place. Ad hoc analysis and business questions often end up as new dashboards.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Statistical Models</title>
-      <link>/home/services/service4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/home/services/service4/</guid>
-      <description>&lt;p&gt;Understand and explain the relationship between variables and outcomes, as well as effect sizes of incremental changes in input variables. Get directional and quantitative estimates.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -98,7 +99,7 @@ We are a team of expert analysts and data scientists who are dedicated to your s
     </item>
     
     <item>
-      <title>Tik Tok Pixel Set Up</title>
+      <title>TikTok Pixel Set Up</title>
       <link>/home/recentworks/tik_tok_pixel_setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
