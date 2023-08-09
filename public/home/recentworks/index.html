@@ -222,6 +222,8 @@ def callRequest(event, context): # on cloud pub sub event will trigger with thes
 </code></pre><p>You can test the function in the GCP UI, you should get a &lsquo;OK&rsquo; message like in the image below. Later, once we create an actions workflow file in your repo, you will be able to see the &lsquo;webhook-gcloud&rsquo; event trigger in the repo actions tab.</p>
 <p>The function pings your repo via an http request and sends the event date along with it. This will be used in the workflow to extract data from Big Query and to then send along to AWS S3 via Google Storage.</p>
 <p><img src="/images/test_ok.png" alt="Cloud Function Test OK"></p>
+<p>Once Github Actions are set up and authorization is done (steps further down), you should also see a screen like this when testing the workflow. If you test beforehand setting things up you will get a red failed message instead. The workflow runs with the default date in DATE_PART if ebing run while testing.</p>
+<p><img src="/images/test_webhook_gha.png" alt="Cloud Function Test OK"></p>
 <h3 id="rsync-data-between-google-storage-and-s3">Rsync data between Google Storage and S3</h3>
 <p>The workflow file in this example should be stored in your repo at <code>.github/workflows/main.yml</code>.</p>
 <p>First set some repo secrets:</p>
@@ -331,7 +333,10 @@ env:
           # check data are in aws s3 after loop
           aws s3 ls ${{ secrets.AWS_S3_BUCKET }}/${{ env.DB_SCHEMA }} --recursive
 </code></pre><p>The above 3 code blocks are <code>.github/workflows/main.yml</code>.</p>
-<p>The final code block iterates over each date. First data are extracted using gsutil to Google Storage using <code>bq extract</code>. The data are Rsynced from Google Storage to AWS S3.</p>
+<p>The final code block iterates over each date.
+First some environment vars are set and then gcloud is authorized using the service account json. Next data are extracted using gsutil to Google Storage using <code>bq extract</code>. The data are Rsynced from Google Storage to AWS S3.</p>
+<p>When GA4 data are updated in Big Query and the workflow triggers you should see the webhook_gcloud event in the actions tab, like this:</p>
+<p><img src="/images/webhook_gcloud.png" alt="Actions workflow run via webhook"></p>
 <p>You should now be able ingest this json into your db engine of choice. One approach is using a lambda function with a listener on updates to the S3 bucket. The following example schema for Redshift mirrors the Big Query schema:</p>
 <pre tabindex="0"><code>CREATE TABLE IF NOT EXISTS ga4_extract.&#34;daily-ga4-raw&#34;
 (
