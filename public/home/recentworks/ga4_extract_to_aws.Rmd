@@ -157,7 +157,7 @@ The function pings your repo via an http request and sends the event date along 
 
 ![Cloud Function Test OK](/images/test_ok.png)
 
-Once Github Actions are set up and authorization is done (steps further down), you should also see a screen like this when testing the workflow. If you test beforehand setting things up you will get a red failed message instead. The workflow runs with the default date in DATE_PART if ebing run while testing.
+Once Github Actions are set up and authorization is done (steps are further down), you should also see a screen within Github Actions like this when testing the workflow:
 
 ![Cloud Function Test OK](/images/test_webhook_gha.png)
 
@@ -289,12 +289,12 @@ Note the placeholder \<events schema name\>. This should be the schema where GA4
 
 The above 3 code blocks are `.github/workflows/main.yml`.
 
-The final code block iterates over each date. 
-First some environment vars are set and then gcloud is authorized using the service account json. Next data are extracted using gsutil to Google Storage using `bq extract`. The data are Rsynced from Google Storage to AWS S3.
+Data are extracted using gsutil to Google Storage using `bq extract`. The data are Rsynced from Google Storage to AWS S3.
 
 When GA4 data are updated in Big Query and the workflow triggers you should see the webhook_gcloud event in the actions tab, like this:
 
 ![Actions workflow run via webhook](/images/webhook_gcloud.png)
+Notice how there are several updates within any 24 hour period. GA4 data are updated several times a day.
 
 You should now be able ingest this json into your db engine of choice. One approach is using a lambda function with a listener on updates to the S3 bucket. The following example schema for Redshift mirrors the Big Query schema:
 

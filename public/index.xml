@@ -46,19 +46,37 @@ You can export to a free instance of BigQuery (BigQuery sandbox), but exports th
     
     <item>
       <title>Google Analytics &amp; GTM</title>
-      <link>/home/services/service3/</link>
+      <link>/home/services/google-analytics-tag-manager-meta-facebook-tiktok-pixel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/home/services/service3/</guid>
+      <guid>/home/services/google-analytics-tag-manager-meta-facebook-tiktok-pixel/</guid>
+      <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well well planned and thoroughly verified way.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics &amp; GTM</title>
+      <link>/home/services/temp/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/services/temp/service3/</guid>
       <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well well planned and thoroughly verified way.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Lifetime Value &amp; Retention</title>
-      <link>/home/services/service2/</link>
+      <link>/home/services/lifetime-value-ltv-churn-retention/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/home/services/service2/</guid>
+      <guid>/home/services/lifetime-value-ltv-churn-retention/</guid>
+      <description>&lt;p&gt;The use of decay and growth functions enable businesses to maximize customer lifetime value, optimize profitability, and drive growth. Measure cohorts or users.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lifetime Value &amp; Retention</title>
+      <link>/home/services/temp/service2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/services/temp/service2/</guid>
       <description>&lt;p&gt;The use of decay and growth functions enable businesses to maximize customer lifetime value, optimize profitability, and drive growth. Measure cohorts or users.&lt;/p&gt;</description>
     </item>
     
@@ -73,19 +91,37 @@ You can export to a free instance of BigQuery (BigQuery sandbox), but exports th
     
     <item>
       <title>Machine Learning &amp; Stats Models</title>
-      <link>/home/services/service4/</link>
+      <link>/home/services/machine-learning-models-advanced-analytics-statistical-models/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/home/services/service4/</guid>
+      <guid>/home/services/machine-learning-models-advanced-analytics-statistical-models/</guid>
+      <description>&lt;p&gt;Understand and explain the relationship between variables and outcomes, as well as effect sizes of incremental changes in input variables. Get directional and quantitative estimates.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning &amp; Stats Models</title>
+      <link>/home/services/temp/service4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/services/temp/service4/</guid>
       <description>&lt;p&gt;Understand and explain the relationship between variables and outcomes, as well as effect sizes of incremental changes in input variables. Get directional and quantitative estimates.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Reporting &amp; Dashboards</title>
-      <link>/home/services/service1/</link>
+      <link>/home/services/reporting-dashboards-looker-tableau/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/home/services/service1/</guid>
+      <guid>/home/services/reporting-dashboards-looker-tableau/</guid>
+      <description>&lt;p&gt;We provide you with easy-to-use dashboards that display all of your most important metrics in one place. Ad hoc analysis and business questions often end up as new dashboards.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reporting &amp; Dashboards</title>
+      <link>/home/services/temp/service1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/services/temp/service1/</guid>
       <description>&lt;p&gt;We provide you with easy-to-use dashboards that display all of your most important metrics in one place. Ad hoc analysis and business questions often end up as new dashboards.&lt;/p&gt;</description>
     </item>
     
