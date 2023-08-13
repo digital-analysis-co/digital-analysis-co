@@ -22,5 +22,6 @@ Your privacy matters to us. Here's how we handle your information:
 
 Thanks for choosing us. Your trust is essential.
 
-For questions, contact us at [your contact email].
+For questions, contact us via [our Linkedin page](https://www.linkedin.com/company/digital-analysis-company/about/).
+
 Last updated: `r Sys.Date()`

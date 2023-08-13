@@ -20,6 +20,7 @@ params:
       trackerID: GA-000000000-0
   name: Digital Analysis Company
   phone: ''
+  linkedin_contact: https://www.linkedin.com/company/digital-analysis-company/
   # sharethis:
   #   custom: no
   #   property: '123456789012345678901234'
@@ -62,7 +63,7 @@ params:
       network: linkedin
       sharethis: yes
       title: linkedin
-      url: https://www.linkedin.com/in/nickname
+      url: https://www.linkedin.com/company/digital-analysis-company/
     # - footer: no
     #   icon: fab fa-tumblr-square
     #   network: tumblr
@@ -74,7 +75,7 @@ params:
       network: ''
       sharethis: no
       title: github
-      url: https://github.com/nickname
+      url: https://github.com/digital-analysis-co/
     # - footer: no
     #   icon: fas fa-envelope-square
     #   network: email
@@ -87,6 +88,3 @@ menu:
     - name: home
       url: /
       weight: 1
-    # - name: blog
-    #   url: /post/
-    #   weight: 5
