@@ -18,6 +18,9 @@
  						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
 					</header>
 					<div class="entry-content">
+					  {{ if .Params.toc }}
+            {{ .TableOfContents }}
+            {{ end }}
 						{{ .Content }}
 					</div>
 				</article><!-- #post-## -->

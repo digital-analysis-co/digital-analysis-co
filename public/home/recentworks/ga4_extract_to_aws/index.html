@@ -101,8 +101,19 @@
  						<h1 class="entry-title"><a href="/home/recentworks/ga4_extract_to_aws/" rel="bookmark">GA4 Extract to AWS</a></h1>
 					</header>
 					<div class="entry-content">
-						<h2 id="send-daily-ga4-data-to-amazon-via-big-query">Send Daily GA4 Data to Amazon Via Big Query</h2>
-<h3 id="summary">Summary</h3>
+					  
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#inputs-needed-to-follow-this-post">Inputs Needed to Follow this Post</a></li>
+    <li><a href="#create-a-pub--sub-topic-in-google-cloud">Create a Pub / Sub Topic in Google Cloud</a></li>
+    <li><a href="#use-a-cloud-function-to-trigger-a-github-actions-workflow">Use a Cloud Function to Trigger a Github Actions Workflow</a></li>
+    <li><a href="#rsync-data-between-google-storage-and-s3">Rsync data between Google Storage and S3</a></li>
+  </ul>
+</nav>
+            
+						<h1 id="send-daily-ga4-data-to-amazon-via-big-query">Send Daily GA4 Data to Amazon Via Big Query</h1>
+<h2 id="summary">Summary</h2>
 <p>Recently on a couple of occasions I have been asked to move GA4&rsquo;s event data export into Amazon Web Services. Within GA4 you can configure an automatic export into a free Big Query sandbox. Data are retained for a rolling 60 days. <a href="https://support.google.com/analytics/answer/9358801?hl=en">Details</a>. The export is only for Big Query.</p>
 <blockquote>
 <p>You can export to a free instance of BigQuery <a href="https://cloud.google.com/bigquery/docs/sandbox">(BigQuery sandbox)</a>, but exports that exceed the sandbox limits incur charges</p>
@@ -127,7 +138,7 @@
 <li>(Github Actions) Rsync data from Google Storage to AWS S3</li>
 </ol>
 <p>Once data are in S3 you can then populate a table in your preferred SQL engine, such as Redshift or Athena. The BQ extract contains structured data, just create an equivalent table with like field data types to those of <a href="https://support.google.com/analytics/answer/7029846?hl=en">the BQ one</a>. Or, if using Redshift, copy / paste the <code>create table</code> sql below.</p>
-<h3 id="inputs-needed-to-follow-this-post">Inputs Needed to Follow this Post</h3>
+<h2 id="inputs-needed-to-follow-this-post">Inputs Needed to Follow this Post</h2>
 <ul>
 <li>A Github repo along with a fine grained access token (details below). This repo is used to run an actions workflow that moves GA4 data from BQ to AWS. Ensure the repo has actions enabled.</li>
 <li>GA4 daily extract to Big Query is up and running. When you first set this up it will take 1-2 days before data start coming in. <a href="https://support.google.com/analytics/answer/9823238">Documentation</a>.</li>
@@ -135,10 +146,10 @@
 <li>AWS S3 credentials for a bucket to send the data to, including <code>AWS_S3_BUCKET</code>, <code>AWS_ACCESS_KEY_ID</code>, <code>AWS_SECRET_ACCESS_KEY</code>, <code>AWS_DEFAULT_REGION</code>.</li>
 <li>A Google Storage bucket to save the data in before sending to AWS S3.</li>
 </ul>
-<h3 id="create-a-pub--sub-topic-in-google-cloud">Create a Pub / Sub Topic in Google Cloud</h3>
+<h2 id="create-a-pub--sub-topic-in-google-cloud">Create a Pub / Sub Topic in Google Cloud</h2>
 <p>In short, we want to create a pub / sub topic using the <a href="https://console.cloud.google.com/logs/router">Logs Router</a> in Google Cloud. This will allow us to trigger a Cloud Function when GA4 data are extracted into BQ.</p>
 <p>As mentioned above, I drew on <a href="https://www.teamsimmer.com/2022/12/07/how-do-i-trigger-a-scheduled-query-when-the-ga4-daily-export-happens/">the article by Simo at Simmer</a> to complete this step. See the link for more details, especially on how to filter logs for GA4 extract updates under the section &ldquo;2. Create the Logs Router&rdquo;.</p>
-<h3 id="use-a-cloud-function-to-trigger-a-github-actions-workflow">Use a Cloud Function to Trigger a Github Actions Workflow</h3>
+<h2 id="use-a-cloud-function-to-trigger-a-github-actions-workflow">Use a Cloud Function to Trigger a Github Actions Workflow</h2>
 <p>Once the Pub / Sub sink has been created per the previous step, create a <a href="https://console.cloud.google.com/functions/list">Cloud Function</a> and for the trigger choose Pub / Sub and select the topic from the previous step.</p>
 <p>How mine looks:</p>
 <p><img src="/images/cloud_func.png" alt="Cloud Function">
@@ -226,7 +237,7 @@ def callRequest(event, context): # on cloud pub sub event will trigger with thes
 <p><img src="/images/test_ok.png" alt="Cloud Function Test OK"></p>
 <p>Once Github Actions are set up and authorization is done (steps are further down), you should also see a screen within Github Actions like this when testing the workflow:</p>
 <p><img src="/images/test_webhook_gha.png" alt="Cloud Function Test OK"></p>
-<h3 id="rsync-data-between-google-storage-and-s3">Rsync data between Google Storage and S3</h3>
+<h2 id="rsync-data-between-google-storage-and-s3">Rsync data between Google Storage and S3</h2>
 <p>The workflow file in this example should be stored in your repo at <code>.github/workflows/main.yml</code>.</p>
 <p>First set some repo secrets:</p>
 <ul>

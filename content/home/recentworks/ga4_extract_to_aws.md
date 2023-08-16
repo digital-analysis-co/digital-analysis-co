@@ -1,15 +1,13 @@
 ---
 title: "GA4 Extract to AWS"
-output: 
-  html_document:
-    toc: true # table of content true
+toc: true
 ---
 
 
 
-## Send Daily GA4 Data to Amazon Via Big Query
+# Send Daily GA4 Data to Amazon Via Big Query
 
-### Summary
+## Summary
 
 Recently on a couple of occasions I have been asked to move GA4's event data export into Amazon Web Services. Within GA4 you can configure an automatic export into a free Big Query sandbox. Data are retained for a rolling 60 days. [Details](https://support.google.com/analytics/answer/9358801?hl=en). The export is only for Big Query.
 
@@ -41,7 +39,7 @@ Approach:
 
 Once data are in S3 you can then populate a table in your preferred SQL engine, such as Redshift or Athena. The BQ extract contains structured data, just create an equivalent table with like field data types to those of [the BQ one](https://support.google.com/analytics/answer/7029846?hl=en). Or, if using Redshift, copy / paste the `create table` sql below.
 
-### Inputs Needed to Follow this Post
+## Inputs Needed to Follow this Post
 
 * A Github repo along with a fine grained access token (details below). This repo is used to run an actions workflow that moves GA4 data from BQ to AWS. Ensure the repo has actions enabled.
 * GA4 daily extract to Big Query is up and running. When you first set this up it will take 1-2 days before data start coming in. [Documentation](https://support.google.com/analytics/answer/9823238).
@@ -49,13 +47,13 @@ Once data are in S3 you can then populate a table in your preferred SQL engine, 
 * AWS S3 credentials for a bucket to send the data to, including `AWS_S3_BUCKET`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_DEFAULT_REGION`.
 * A Google Storage bucket to save the data in before sending to AWS S3.
 
-### Create a Pub / Sub Topic in Google Cloud
+## Create a Pub / Sub Topic in Google Cloud
 
 In short, we want to create a pub / sub topic using the [Logs Router](https://console.cloud.google.com/logs/router) in Google Cloud. This will allow us to trigger a Cloud Function when GA4 data are extracted into BQ.
 
 As mentioned above, I drew on [the article by Simo at Simmer](https://www.teamsimmer.com/2022/12/07/how-do-i-trigger-a-scheduled-query-when-the-ga4-daily-export-happens/) to complete this step. See the link for more details, especially on how to filter logs for GA4 extract updates under the section "2. Create the Logs Router".
 
-### Use a Cloud Function to Trigger a Github Actions Workflow
+## Use a Cloud Function to Trigger a Github Actions Workflow
 
 Once the Pub / Sub sink has been created per the previous step, create a [Cloud Function](https://console.cloud.google.com/functions/list) and for the trigger choose Pub / Sub and select the topic from the previous step.
 
@@ -159,7 +157,7 @@ Once Github Actions are set up and authorization is done (steps are further down
 
 ![Cloud Function Test OK](/images/test_webhook_gha.png)
 
-### Rsync data between Google Storage and S3
+## Rsync data between Google Storage and S3
 
 The workflow file in this example should be stored in your repo at `.github/workflows/main.yml`.
 

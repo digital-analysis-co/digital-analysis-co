@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 output: html_document
-date: "2023-08-13"
+date: "2023-08-16"
 ---
 
 
@@ -22,4 +22,4 @@ Thanks for choosing us. Your trust is essential.
 
 For questions, contact us via [our Linkedin page](https://www.linkedin.com/company/digital-analysis-company/about/).
 
-Last updated: 2023-08-13
+Last updated: 2023-08-16
