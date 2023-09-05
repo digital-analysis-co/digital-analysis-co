@@ -7,15 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Download original template</title>
-      <link>/home/downloads/download1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/home/downloads/download1/</guid>
-      <description>A simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,7 +19,7 @@ We are a team of expert analysts and data scientists who are dedicated to your s
     <item>
       <title>Privacy Policy</title>
       <link>/privacy-policy/</link>
-      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>/privacy-policy/</guid>
       <description>Your privacy matters to us. Here&amp;rsquo;s how we handle your information:
@@ -50,15 +41,6 @@ Thanks for choosing us.</description>
     </item>
     
     <item>
-      <title>Download HUGO template</title>
-      <link>/home/downloads/download2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/home/downloads/download2/</guid>
-      <description>Another simple, nice-looking call to action box. Boxing is about respect. getting it for yourself, and taking it away from the other guy. no, this is mount everest.</description>
-    </item>
-    
-    <item>
       <title>GA4 Extract to AWS</title>
       <link>/home/recentworks/ga4_extract_to_aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -74,7 +56,7 @@ You can export to a free instance of BigQuery (BigQuery sandbox), but exports th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/home/services/google-analytics-tag-manager-meta-facebook-tiktok-pixel/</guid>
-      <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add GA4, Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well well planned and thoroughly verified way.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Optimize your site, app or campaign with informed decisions using data. Add Google Analytics 4 (GA4), Meta &amp;amp; TikTok tags using Google-Tag-Manager in a well well planned and thoroughly verified way.&lt;/p&gt;</description>
     </item>
     
     <item>
