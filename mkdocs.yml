@@ -1,0 +1,30 @@
+site_name: Digital Analysis Co
+
+nav:
+  - Home: index.md
+  - Resume: resume.md
+  - Blog: blog/index.md
+
+# for github pages /docs is reserved for generated site pages, so swapping the mkdocs special dir /docs to be /src
+# Sync /docs with /docs on the repo to push changes to the site
+# site_dir: docs
+# docs_dir: src
+
+plugins:
+  - blog:
+      archive: false
+      categories: false
+
+theme:
+  name: material
+  palette:
+    primary: blue grey   
+
+markdown_extensions:
+  - toc:
+      toc_depth: 2  
+
+extra:
+  analytics:
+    provider: google
+    property: G-VCSWSYFRX3
