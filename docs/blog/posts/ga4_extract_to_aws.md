@@ -10,7 +10,7 @@ categories:
 
 ## Summary
 
-GA4 provides a convenient point and click extract into Big Query. On several occassions I've been asked to forward the extract to AWS. <!-- more --> GA4 data in the Big Query extract are retained for a rolling 60 days. [Details](https://support.google.com/analytics/answer/9358801?hl=en).
+GA4 provides a convenient point and click extract into Big Query. On several occassions I've been asked to forward this extract to AWS. <!-- more --> GA4 data in the Big Query extract are retained for a rolling 60 days. [Details](https://support.google.com/analytics/answer/9358801?hl=en).
 
 > You can export to a free instance of BigQuery [(BigQuery sandbox)](https://cloud.google.com/bigquery/docs/sandbox), but exports that exceed the sandbox limits incur charges
 

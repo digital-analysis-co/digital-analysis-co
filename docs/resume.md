@@ -28,9 +28,8 @@ Measurable impact in over a decade of freelance work derived almost entirely by 
  - Site design AB testing leading to improved sign up and conversion rates of up to 5%  
  - Informed product design & marketing campaign decisions with simple and clear dashboards  
 
-**Skills:** Digital, product and marketing analytics, data pipelines, reports & dashboards, ML, business intelligence, lifetime value prediction (LTV) & attribution modeling
-
-**Tools:** Google Analytics & Tag Manager, SQL, Python, R, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
+**Skills:** Digital, product and marketing analytics, data pipelines, reports & dashboards, ML, business intelligence, lifetime value prediction (LTV), attribution & non linear regression modeling  
+**Tools:** Google Analytics & Tag Manager, SQL, Python, R, XGBoost, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
 
 **Integrations:**
 Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads  
@@ -43,8 +42,8 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
  - Shared ML data with Google Ads which led to increased acquisition via audiences  
  - Automated reports for quarterly auditing  
 
-**Tools:** Python, R, SQL (Presto, Redshift, Snowflake), Docker, Github Actions, MLFlow, Tableau  
 **Skills:** Lifetime Value (LTV) modeling, clustering, data pipelines, product analytics  
+**Tools:** Python, R, XGBoost, SQL (Presto, Redshift, Snowflake), Docker, Github Actions, MLFlow, Tableau  
 
 ---
 
@@ -53,8 +52,8 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
  - Improved forecast accuracy by introducing ARIMA time series modeling for quarterly reporting  
  - Deep dive analysis and segmentation of pro userbase for targeted outreach efforts  
 
-**Tools:** SQL (Hive), R, Tableau, Shell  
 **Skills:** Business Intelligence, Forecasting  
+**Tools:** SQL (Hive), R, Tableau, Shell  
 
 ---
 
@@ -63,8 +62,8 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
  - Marketing, acquisition and product analytics, including churn, lifecycle and LTV analysis
  - Event tracking, reporting and analysis using Google Analytics and Tag Manager  
 
-**Tools:** Google Analytics & Tag Manager, SQL, Tableau  
 **Skills:** Web, product and marketing analytics, business intelligence  
+**Tools:** Google Analytics & Tag Manager, SQL, Tableau  
 
 ---
 
@@ -72,8 +71,8 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
 
  - Healthcare Web, media and marketing channel analytics  
 
-**Tools:** Google Analytics, SQL (MySQL)  
 **Skills:** Business intelligence  
+**Tools:** Google Analytics, SQL (MySQL)  
 
 ---
 
