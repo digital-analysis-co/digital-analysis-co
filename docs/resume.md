@@ -43,7 +43,7 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
  - Automated reports for quarterly auditing  
 
 **Skills:** Lifetime Value (LTV) modeling, clustering, data pipelines, product analytics  
-**Tools:** Python, R, XGBoost, SQL (Presto, Redshift, Snowflake), Docker, Github Actions, MLFlow, Tableau  
+**Tools:** Python, R, XGBoost, SQL (Athena, Snowflake), Docker, Github Actions, MLFlow, Tableau  
 
 ---
 
