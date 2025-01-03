@@ -29,7 +29,7 @@ Measurable impact in over a decade of freelance work derived almost entirely by 
  - Informed product & marketing decisions with simple and clear dashboards  
 
 **Skills:** Digital, product and marketing analytics, data pipelines, reports & dashboards, ML, business intelligence, lifetime value prediction (LTV), attribution & non linear regression modeling  
-**Tools:** Google Analytics & Tag Manager, SQL, Python, R, XGBoost, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
+**Tools:** Google Analytics & Tag Manager, Segment, SQL, Python, R, XGBoost, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
 
 **Integrations:**
 Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads  
@@ -53,7 +53,7 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
  - Deep dive analysis and segmentation of pro userbase for targeted outreach efforts  
 
 **Skills:** Business Intelligence, Forecasting  
-**Tools:** SQL (Hive), R, Tableau, Shell  
+**Tools:** Hive SQL, R, Tableau, Shell  
 
 ---
 
@@ -63,7 +63,7 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
  - Event tracking, reporting and analysis using Google Analytics and Tag Manager  
 
 **Skills:** Web, product and marketing analytics, business intelligence  
-**Tools:** Google Analytics & Tag Manager, SQL, Tableau  
+**Tools:** Google Analytics & Tag Manager, Redshift SQL, Tableau  
 
 ---
 
@@ -72,7 +72,7 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
  - Healthcare Web, media and marketing channel analytics  
 
 **Skills:** Business intelligence  
-**Tools:** Google Analytics, SQL (MySQL)  
+**Tools:** Google Analytics, MySQL  
 
 ---
 
@@ -82,7 +82,7 @@ Heriot-Watt University, Edinburgh, UK — MA in Economics (2006)
 ---
 
 ## Certifications
-- [Google Analytics (Last Renewed Dec 2024)](https://skillshop.credential.net/39d2e968-e274-46ef-a253-eeef5a45008a#acc.qEF93nkz)
+- [Google Analytics (Renewed Dec 2024)](https://skillshop.credential.net/39d2e968-e274-46ef-a253-eeef5a45008a#acc.qEF93nkz)
 
 ---
 
