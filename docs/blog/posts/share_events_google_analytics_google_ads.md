@@ -36,6 +36,6 @@ Following this drill down will lead to a screen showing events that are availabl
 
 ## Summary
 
-I'm unsure why it's still so common to have Google Ads pixels set up in addition to the same event in Google Analytics when a link between the two exists. 
+I'm unsure why it's still so common to have Google Ads pixels set up in addition to the same event in Google Analytics when a link between the two already exists. 
 
 Sharing an event rather than duplicating tracking across two systems helps by ensuring there's a single source.
