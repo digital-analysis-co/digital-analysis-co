@@ -25,8 +25,8 @@ Expert implementation of over 100 Google Analytics properties.
 Measurable impact in over a decade of freelance work derived almost entirely by referrals e.g.,
 
  - Reduced subscriber churn -3% via a combination of risk scoring and targeted campaigns  
- - Site design AB testing leading to improved sign up and conversion rates of up to 5%  
- - Informed product design & marketing campaign decisions with simple and clear dashboards  
+ - Increased site conversion rates up to 5% with AB testing  
+ - Informed product & marketing decisions with simple and clear dashboards  
 
 **Skills:** Digital, product and marketing analytics, data pipelines, reports & dashboards, ML, business intelligence, lifetime value prediction (LTV), attribution & non linear regression modeling  
 **Tools:** Google Analytics & Tag Manager, SQL, Python, R, XGBoost, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
@@ -49,7 +49,7 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
 
 ### GoDaddy | Data Analyst | San Francisco Jul 2018 - May 2019
 
- - Improved forecast accuracy by introducing ARIMA time series modeling for quarterly reporting  
+ - Improved forecast accuracy by introducing ARIMA time series modeling for reporting  
  - Deep dive analysis and segmentation of pro userbase for targeted outreach efforts  
 
 **Skills:** Business Intelligence, Forecasting  
