@@ -5,7 +5,7 @@ categories:
   - Digital Analytics
 ---
 
-# GA4 "(not set)" Landing Pages
+# Google Analytics "(not set)" Landing Pages
 
 I was recently asked to investigate a site where landing page `(not set)` was the top page. <!-- more --> Taking a look at a few random sites I have access to, I could see that `(not set)` landing page always exists, and is often among the top 3 landing pages.
 

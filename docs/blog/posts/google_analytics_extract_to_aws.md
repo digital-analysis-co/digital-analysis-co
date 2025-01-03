@@ -6,7 +6,7 @@ categories:
   - Data Pipeline
 ---
 
-# Extract GA4 Data to AWS (Via Big Query)
+# Extract Google Analytics Data to AWS (Via Big Query)
 
 ## Summary
 
