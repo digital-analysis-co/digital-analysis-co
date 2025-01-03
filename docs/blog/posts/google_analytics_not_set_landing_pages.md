@@ -2,7 +2,7 @@
 date: 2024-12-01
 categories:
   - Marketing Tech
-  - Digital Analytics
+  - Google Analytics
 ---
 
 # Google Analytics "(not set)" Landing Pages

@@ -2,7 +2,7 @@
 date: 2024-03-01
 categories:
   - Marketing Tech
-  - Digital Analytics
+  - Google Analytics
   - Data Pipeline
 ---
 
