@@ -29,7 +29,7 @@ Measurable impact in over a decade of freelance work derived almost entirely by 
  - Informed product & marketing decisions with simple and clear dashboards  
 
 **Skills:** Digital, product and marketing analytics, data pipelines, reports & dashboards, ML, business intelligence, lifetime value prediction (LTV), attribution & non linear regression modeling  
-**Tools:** Google Analytics & Tag Manager, Segment, SQL, Python, R, XGBoost, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
+**Tools:** Google Analytics & Tag Manager, BigQuery SQL, Python, R, XGBoost, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
 
 **Integrations:**
 Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads  
