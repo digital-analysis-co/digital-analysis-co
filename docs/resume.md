@@ -1,9 +1,5 @@
 # Gavin Cameron  
-Data Science, Analytics, Dashboards and Pipelines  
-
-**Location:** Remote, USA  
-**GitHub:** [gcameron89777](https://github.com/gcameron89777)  
-**LinkedIn:** [gavinpcameron](https://www.linkedin.com/in/gavinpcameron/)  
+Data Science, Analytics, Dashboards and Pipelines | [GitHub](https://github.com/gcameron89777) | [Linkedin](https://www.linkedin.com/in/gavinpcameron/) | [Email](mailto:gavin_cameron@fastmail.co)
 
 ---
 
