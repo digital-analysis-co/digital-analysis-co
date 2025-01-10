@@ -7,6 +7,16 @@ Data Science, Analytics, Dashboards and Pipelines
 
 ---
 
+## Skills
+
+**SQL:** Redshift, Athena, Snowflake, Big Query, Databricks, Postgres, Hive  
+**R and Python:** Pandas, Polars, XGBoost, Pyspark, Psycopg2, Tidyverse, Dplyr, NLS, Ggplot  
+**ML:** Regression and Time Series Forecasting, Churn Risk Scoring, Subscriber Clustering  
+**Data Engineering:** Pipelines, DBT, Docker, Github Actions, Lambda AWS, GCP  
+**Analytics:**  Tableau, Looker, Google Analytics and Tag Manager, Segment, Amplitude  
+
+---
+
 ## Experience
 
 ### Freelance | Data Science & Marketing Technology | Remote Sep 2014 - Present
@@ -25,54 +35,28 @@ Expert implementation of over 100 Google Analytics properties.
 Measurable impact in over a decade of freelance work derived almost entirely by referrals e.g.,
 
  - Reduced subscriber churn -3% via a combination of risk scoring and targeted campaigns  
- - Increased site conversion rates up to 5% with AB testing  
- - Informed product & marketing decisions with simple and clear dashboards  
-
-**Skills:** Digital, product and marketing analytics, data pipelines, reports & dashboards, ML, business intelligence, lifetime value prediction (LTV), attribution & non linear regression modeling  
-**Tools:** Google Analytics & Tag Manager, BigQuery SQL, Python, R, XGBoost, Javascript, DBT, Docker, Github Actions, Lambda & Google Cloud Functions, Server Management, Looker, Tableau
+ - Increased campaign ROAS by sharing modeled LTV with ad platforms    
+ - Informed decisions by harmonizing multiple data sources into digestible dashboards  
 
 **Integrations:**
 Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads  
 
 ---
 
-### Electronic Arts  | Data Scientist | San Francisco Jun 2019 - Nov 2022
+### Electronic Arts  | Data Scientist | June 2019 - November 2022
+• Increased acquisition by 1% with a clustering data pipeline to Google Ads via lookalike audiences  
+• Optimized budget allocation decisions by developing a scenario modeling tool  
+• Freed up time and increased confidence in data by automating audit reporting  
 
- - Created a scenario modeling app used by management to optimally allocate budget  
- - Shared ML data with Google Ads which led to increased acquisition via audiences  
- - Automated reports for quarterly auditing  
+### GoDaddy | Data Analyst | July 2018 - May 2019
+• Improved forecast accuracy using ARIMA time series forecasting for quarterly reporting  
+• Enabled targeted outreach to pro users with insights via subscriber segmentation  
+• Informed spend decisions by attributing offline campaign spend using time series modeling  
 
-**Skills:** Lifetime Value (LTV) modeling, clustering, data pipelines, product analytics  
-**Tools:** Python, R, XGBoost, SQL (Athena, Snowflake), Docker, Github Actions, MLFlow, Tableau  
-
----
-
-### GoDaddy | Data Analyst | San Francisco Jul 2018 - May 2019
-
- - Improved forecast accuracy by introducing ARIMA time series modeling for reporting  
- - Deep dive analysis and segmentation of pro userbase for targeted outreach efforts  
-
-**Skills:** Business Intelligence, Forecasting  
-**Tools:** Hive SQL, R, Tableau, Shell  
-
----
-
-### Texture (Acquired by Apple 2017) | Data Analyst | Toronto Jan 2014 - Feb 2017
-
- - Marketing, acquisition and product analytics, including churn, lifecycle and LTV analysis
- - Event tracking, reporting and analysis using Google Analytics and Tag Manager  
-
-**Skills:** Web, product and marketing analytics, business intelligence  
-**Tools:** Google Analytics & Tag Manager, Redshift SQL, Tableau  
-
----
-
-### Klick Health | Data Analyst | Toronto Jan 2012 - Dec 2013
-
- - Healthcare Web, media and marketing channel analytics  
-
-**Skills:** Business intelligence  
-**Tools:** Google Analytics, MySQL  
+### Texture | Data Analyst | January 2014 - February 2017  
+• Continuous optimization of sign up, trial to paid and cancel flows  
+• Developed and maintained a SQL UI to unsampled Google Analytics data  
+• Helped decision making on cancel flow messaging using text clustering analysis  
 
 ---
 
