@@ -18,21 +18,20 @@ Data Science, Analytics, Dashboards and Pipelines | [GitHub](https://github.com/
 ### Freelance | Data Science & Marketing Technology | Remote | Sep 2014 - Present
 Expert implementation of over 100 Google Analytics properties.  
 
-**Services:**
-
- - Analytics event tracking in GA4, Amplitude, Segment, Heap or Pendo
- - Marketing pixels done right
- - Event design & taxonomy modeling
- - Data centralization, warehousing and pipelines (AWS, Google Cloud, Azure)
- - ML development including lifetime value, subscriber segmentation and churn risk scoring
- - Product & marketing dashboards that combine campaign spend with back end product data  
+**Services:**  
+• Analytics event tracking in GA4, Amplitude, Segment, Heap or Pendo  
+• Marketing pixels done right  
+• Event design & taxonomy modeling  
+• Data centralization, warehousing and pipelines (AWS, Google Cloud, Azure)  
+• ML development including lifetime value, subscriber segmentation and churn risk scoring  
+• Product & marketing dashboards that combine campaign spend with back end product data  
 
 **Outcomes:**  
 Measurable impact in over a decade of freelance work derived almost entirely by referrals e.g.,
 
- - Reduced subscriber churn -3% via a combination of risk scoring and targeted campaigns  
- - Increased campaign ROAS by sharing modeled LTV with ad platforms    
- - Informed decisions by harmonizing multiple data sources into digestible dashboards  
+• Reduced subscriber churn -3% via a combination of risk scoring and targeted campaigns  
+• Increased campaign ROAS by sharing modeled LTV with ad platforms    
+• Informed decisions by harmonizing multiple data sources into digestible dashboards  
 
 **Integrations:**
 Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads  
