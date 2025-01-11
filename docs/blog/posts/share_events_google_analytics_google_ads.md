@@ -47,7 +47,7 @@ However with this approach note that the new goal event won't show up in Google 
 
 I had thought that this would allow for sharing the data stream itself, but this is not the case. Adding multiple destinations to a gtag only consolodates the configuration, not the events themselves. Using the GA Debug add-on, it does seem to share `page_view` events, just not other events such as ecommerce. 
 
-If you would like to consolodate gtag configuration only, access Google Tag admin via Tag Manager https://tagmanager.google.com/#/home then click on "Google Tags"
+If you would like to consolodate gtag configuration only, access Google Tag admin via Tag Manager [https://tagmanager.google.com/#/home](https://tagmanager.google.com/#/home) then click on "Google Tags"
 
 ![Navigate to Google Tag Admin](../images/navigate_to_google_tag_admin.png)
 
