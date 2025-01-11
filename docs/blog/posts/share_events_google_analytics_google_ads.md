@@ -45,7 +45,7 @@ However with this approach note that the new goal event won't show up in Google 
 
 > The Google tag (gtag.js) is a single tag you can add to your website that allows you to use a variety of Google products and services. Instead of managing multiple tags for different Google product accounts, you can use the Google tag across your entire website and connect the tag to multiple destinations.
 
-I had thought that this would allow for sharing the data stream itself, but this was not the case. Adding multiple destinations to a gtag only consolodates the configuration, not the events themselves. Using the GA Debug add-on, it does seem to share `page_view` events, just not other events such as ecommerce. 
+I had thought that this would allow for sharing the data stream itself, but this is not the case. Adding multiple destinations to a gtag only consolodates the configuration, not the events themselves. Using the GA Debug add-on, it does seem to share `page_view` events, just not other events such as ecommerce. 
 
 If you would like to consolodate gtag configuration only, access Google Tag admin via Tag Manager https://tagmanager.google.com/#/home then click on "Google Tags"
 
