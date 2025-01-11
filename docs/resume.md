@@ -40,7 +40,7 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
 ---
 
 ### Electronic Arts | Data Scientist | San Francisco | June 2019 - November 2022
-• Increased acquisition by 1% with a clustering data pipeline to Google Ads via lookalike audiences  
+• Increased installs by 1% with a clustering data pipeline to Google Ads Audiences  
 • Optimized budget allocation decisions by developing a scenario modeling tool  
 • Freed up time and increased confidence in data by automating audit reporting  
 
