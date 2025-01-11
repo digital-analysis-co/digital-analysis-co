@@ -15,7 +15,7 @@ Data Science, Analytics, Dashboards and Pipelines | [GitHub](https://github.com/
 
 ## Experience
 
-### Freelance | Data Science & Marketing Technology | Remote Sep 2014 - Present
+### Freelance | Data Science & Marketing Technology | Remote | Sep 2014 - Present
 Expert implementation of over 100 Google Analytics properties.  
 
 **Services:**
@@ -39,17 +39,17 @@ Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads
 
 ---
 
-### Electronic Arts  | Data Scientist | June 2019 - November 2022
+### Electronic Arts | Data Scientist | San Francisco | June 2019 - November 2022
 • Increased acquisition by 1% with a clustering data pipeline to Google Ads via lookalike audiences  
 • Optimized budget allocation decisions by developing a scenario modeling tool  
 • Freed up time and increased confidence in data by automating audit reporting  
 
-### GoDaddy | Data Analyst | July 2018 - May 2019
+### GoDaddy | Data Analyst | San Francisco | July 2018 - May 2019
 • Improved forecast accuracy using ARIMA time series forecasting for quarterly reporting  
 • Enabled targeted outreach to pro users with insights via subscriber segmentation  
 • Informed spend decisions by attributing offline campaign spend using time series modeling  
 
-### Texture | Data Analyst | January 2014 - February 2017  
+### Texture | Data Analyst | Remote | January 2014 - February 2017  
 • Continuous optimization of sign up, trial to paid and cancel flows  
 • Developed and maintained a SQL UI to unsampled Google Analytics data  
 • Helped decision making on cancel flow messaging using text clustering analysis  
