@@ -27,13 +27,13 @@ Expert implementation of 100+ Google Analytics properties.
 • Product & marketing dashboards that combine campaign spend with back end product data  
 
 **Outcomes:**  
-Measurable impact in over a decade of freelance work derived almost entirely by referrals e.g.,
+Measurable impact in over a decade of freelance work derived almost entirely by referrals e.g.,  
 
 • Reduced subscriber churn by 3% via risk scoring and targeted retention campaigns  
 • Increased campaign ROAS 5% by sharing modeled LTV with ad platforms  
 • Informed decisions by harmonizing multiple data sources into digestible dashboards   
 
-**Integrations:**
+**Integrations:**  
 Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads  
 
 ---
