@@ -29,9 +29,9 @@ Expert implementation of 100+ Google Analytics properties.
 **Outcomes:**  
 Measurable impact in over a decade of freelance work derived almost entirely by referrals e.g.,
 
-• Reduced subscriber churn -3% via a combination of risk scoring and targeted campaigns  
-• Increased campaign ROAS by sharing modeled LTV with ad platforms    
-• Informed decisions by harmonizing multiple data sources into digestible dashboards  
+• Reduced subscriber churn by 3% via risk scoring and targeted retention campaigns  
+• Increased campaign ROAS 5% by sharing modeled LTV with ad platforms  
+• Informed decisions by harmonizing multiple data sources into digestible dashboards   
 
 **Integrations:**
 Optimizely, Hotjar, Salesforce, Facebook, TikTok, Google & Bing Ads  
