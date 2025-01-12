@@ -16,7 +16,7 @@ Data Science, Analytics, Dashboards and Pipelines | [GitHub](https://github.com/
 ## Experience
 
 ### Freelance | Data Science & Marketing Technology | Remote | Sep 2014 - Present
-Expert implementation of over 100 Google Analytics properties.  
+Expert implementation of 100+ Google Analytics properties.  
 
 **Services:**  
 • Analytics event tracking in GA4, Amplitude, Segment, Heap or Pendo  
