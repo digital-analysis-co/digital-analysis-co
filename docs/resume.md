@@ -9,7 +9,8 @@ Data Science, Analytics, Dashboards and Pipelines | [GitHub](https://github.com/
 **R and Python:** Pandas, Polars, XGBoost, Pyspark, Psycopg2, Tidyverse, Dplyr, NLS, Ggplot  
 **ML:** Regression and Time Series Forecasting, Churn Risk Scoring, Subscriber Clustering  
 **Data Engineering:** Pipelines, DBT, Docker, Github Actions, Lambda AWS, GCP  
-**Analytics:**  Tableau, Looker, Google Analytics and Tag Manager, Segment, Amplitude  
+**Analytics:** Tableau, Looker, Google Analytics and Tag Manager, Segment, Amplitude  
+**Cookie Consent:**  CookieYes, CookieBot, OneTrust, Custom Solutions  
 
 ---
 
@@ -21,6 +22,7 @@ Expert implementation of 100+ Google Analytics properties.
 **Services:**  
 • Analytics event tracking in GA4, Amplitude, Segment, Heap or Pendo  
 • Marketing pixels done right  
+• Cookie Consent done right  
 • Event design & taxonomy modeling  
 • Data centralization, warehousing and pipelines (AWS, Google Cloud, Azure)  
 • ML development including lifetime value, subscriber segmentation and churn risk scoring  
