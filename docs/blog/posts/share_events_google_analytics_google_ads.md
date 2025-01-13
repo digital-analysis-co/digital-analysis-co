@@ -12,7 +12,7 @@ Many GA4 properties I access are also linked to Google Ads. Yet I'm still often 
 There are actually 3 ways that I know of to share data between Google Analytics and Google Ads.
 
 * Linking Google Analytics with Google Ads
-* Adding a Google Ads Property ID as a Destination to the Google Tag (GTAG)
+* Adding a Google Ads GTAG ID as a Destination to the Google Tag
 * Add a Google Ads Conversion Tag to the Site via Google Tag Manager
 
 ## Linking Google Analytics with Google Ads
@@ -43,7 +43,7 @@ Sharing an event rather than duplicating tracking across two systems helps by en
 
 However with this approach note that the new goal event won't show up in Google Ads as quickly as with a regular pixel since Google Analytics data usually has a 1-2 day lag. On top of that, importing an event from Analytics to Ads will not make use of conversion windows.
 
-## Adding a Google Ads Property ID as a Destination to the Google Tag (GTAG)
+## Adding a Google Ads GTAG ID as a Destination to the Google Tag
 
 [About the Google tag](https://support.google.com/tagmanager/answer/11994839).
 
