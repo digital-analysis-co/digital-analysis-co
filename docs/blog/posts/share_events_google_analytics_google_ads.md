@@ -20,9 +20,9 @@ There are actually 3 ways that I know of to share data between Google Analytics 
 According to [Google's guide to sharing data between GA4 and Google Ads](https://support.google.com/analytics/answer/9379420?hl=en#zippy=%2Cin-this-article), benefits include:
 
 > When you link your Google Analytics property to a Google Ads account, you enable data to flow between products so you can do the following:
- > - Create Google Ads conversions based on your GA4 key events
- > - View the performance of your Google Ads conversions
- > - Re-engage users based on their behavior in your app or on your site
+> * Create Google Ads conversions based on your GA4 key events
+> * View the performance of your Google Ads conversions
+> * Re-engage users based on their behavior in your app or on your site
 
 Check if a link already exists by navigating the GA interface, go to Admin > Product Links > Google Ads Links.
 
