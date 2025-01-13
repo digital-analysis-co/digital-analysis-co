@@ -48,7 +48,7 @@ However with this approach note that the new goal event won't show up in Google 
 
 > The Google tag (gtag.js) is a single tag you can add to your website that allows you to use a variety of Google products and services. Instead of managing multiple tags for different Google product accounts, you can use the Google tag across your entire website and connect the tag to multiple destinations.
 
-This route makes sense if you have gtag on the page and are not using Google Tag Manager for tracking pageviews and events.
+This route makes sense if you have GTAG on the page and are not using Google Tag Manager for tracking pageviews and events.
 
 Access Google Tag admin via Tag Manager [https://tagmanager.google.com/#/home](https://tagmanager.google.com/#/home) then click on "Google Tags"
 
