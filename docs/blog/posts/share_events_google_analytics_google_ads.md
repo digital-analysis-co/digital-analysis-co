@@ -39,25 +39,25 @@ Sharing an event rather than duplicating tracking across two systems helps by en
 
 However with this approach note that the new goal event won't show up in Google Ads as quickly as with a regular pixel since Google Analytics data usually has a 1-2 day lag. On top of that, importing an event from Analytics to Ads will not make use of conversion windows.
 
-## Adding a Google Ads Property ID to the Google Tag (GTAG)
+## Adding a Google Ads Property ID as a Destination to the Google Tag (GTAG)
 
 [About the Google tag](https://support.google.com/tagmanager/answer/11994839).
 
 > The Google tag (gtag.js) is a single tag you can add to your website that allows you to use a variety of Google products and services. Instead of managing multiple tags for different Google product accounts, you can use the Google tag across your entire website and connect the tag to multiple destinations.
 
-I had thought that this would allow for sharing the data stream itself, but this is not the case. Adding multiple destinations to a gtag only consolodates the configuration, not the events themselves. Using the GA Debug add-on, it does seem to share `page_view` events, just not other events such as ecommerce. 
+This route makes sense if you have gtag on the page and are not using Google Tag Manager for tracking pageviews and events.
 
-If you would like to consolodate gtag configuration only, access Google Tag admin via Tag Manager [https://tagmanager.google.com/#/home](https://tagmanager.google.com/#/home) then click on "Google Tags"
+Access Google Tag admin via Tag Manager [https://tagmanager.google.com/#/home](https://tagmanager.google.com/#/home) then click on "Google Tags"
 
 ![Navigate to Google Tag Admin](../images/navigate_to_google_tag_admin.png)
 
-Locate the Google Tag which currently receives your event stream and click through on it, then click the Google Tag box to administer the tag.
+Locate the Google Tag which currently receives your Google Analytics event stream and click through on it, then click the Google Tag box to administer the tag.
 
-![Navigate to Google Tag Admin](../images/click_to_add_new_google_product_to_gtag.png)
+![Open the Google Tag's Settings](../images/click_to_open_google_tags_settings.png)
 
-Then click "Combine with another Google Tag" to see available tags to link with.
+Then click "+ Destination" to see available tags to add.
 
-![Combine Google Tag With Another Tag](../images/combine_google_tag_with_another_tag.png)
+![Add a Destination to Google Tag GTAG](../images/add_destination_google_tag.png)
 
 Clicking through on that button will lead to a list of tags that you have admin access to. Note the message at the bottom of the page:
 
@@ -65,13 +65,19 @@ Clicking through on that button will lead to a list of tags that you have admin 
 
 ![Navigate to Google Tag Admin](../images/google_tags_with_admin_access.png)
 
-On the screen above I have admin access to a Google Ads tag if I wanted to share Google Analytics events with it.
+To add a Google Ads tag as a destination select from the list of available Google Tags.
 
-## Add a Google Ads Conversion Tag to the Site
+## Add a Google Ads Conversion Tag to the Site via Google Tag Manager
 
-The most common approach is to add a pixel to the site, either directly in the code or via Google-Tag-Manager.
+This is the most common approach is to add a Google Ads goal on the site.
 
-I won't add too much detail here since this is already a well known and common approach. You would generate a new tag within Google Ads and then share it with your analyst or developer to add to the site. The generated tag will include a conversion ID and label which you can use to populate the tag template in Google-Tag-Manager.
+I won't add too much detail here since this is already a well known and common approach.
+
+After creating the goal, under tag set up choose 'Google Tag Manager' to obtain the required params. The generated tag will include a conversion ID and label which you can use to populate the tag template in Google Tag Manager.
+
+![Google Ads Conversion Tracking Tag](../images/add_google_ads_goal_with_google_tag_manager.png)
+
+After clicking, note the conversion ID and label to add to Google Tag Manager:
 
 ![Google Ads Conversion Tracking Tag](../images/google_ads_conversion_tracking_tag.png)
 
