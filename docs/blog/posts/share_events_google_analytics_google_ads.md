@@ -38,9 +38,9 @@ With an active link you can then import any GA4 event as a goal in Google Ads: G
 
 Following this drill down will lead to a screen showing events that are available to share from GA4.
 
-Sharing an event rather than duplicating tracking across two systems helps by ensuring there's a single source.
+Sharing an event rather than duplicating tracking across two systems helps by ensuring there's a single source of event data.
 
-However with this approach note that the new goal event won't show up in Google Ads as quickly as with a regular pixel since Google Analytics data usually has a 1-2 day lag. On top of that, importing an event from Analytics to Ads will not make use of conversion windows.
+However with this approach note that the new goal event won't show up in Google Ads as quickly as with a regular Google Tag Manager tag since Google Analytics data usually has a 1-2 day lag. On top of that, importing an event from Analytics to Ads will not make use of conversion windows.
 
 ## Adding a Google Ads GTAG ID as a Destination to the Google Tag
 
