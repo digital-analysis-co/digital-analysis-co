@@ -11,6 +11,10 @@ Many GA4 properties I access are also linked to Google Ads. Yet I'm still often 
 
 There are actually 3 ways that I know of to share data between Google Analytics and Google Ads.
 
+* Linking Google Analytics with Google Ads
+* Adding a Google Ads Property ID as a Destination to the Google Tag (GTAG)
+* Add a Google Ads Conversion Tag to the Site via Google Tag Manager
+
 ## Linking Google Analytics with Google Ads
 
 According to [Google's guide to sharing data between GA4 and Google Ads](https://support.google.com/analytics/answer/9379420?hl=en#zippy=%2Cin-this-article), benefits include:
@@ -82,7 +86,3 @@ After clicking, note the conversion ID and label to add to Google Tag Manager:
 ![Google Ads Conversion Tracking Tag](../images/google_ads_conversion_tracking_tag.png)
 
 Then set the tag to fire on the event you want to track as a conversion. If the event is a purchase you can also include the revenue amount (Conversion Value), transaction ID and currency code.
-
-## Customer Data Platforms
-
-Other tools such as Segment can also be configured to share event data with Google Ads. They use the Google Tag approach mentioned above e.g. [Segment documentation](https://segment.com/docs/connections/destinations/catalog/google-ads-gtag/).
