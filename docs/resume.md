@@ -26,7 +26,7 @@ Expert implementation of 100+ Google Analytics properties.
 • Event design & taxonomy modeling  
 • Data centralization, warehousing and pipelines (AWS, Google Cloud, Azure)  
 • ML development including lifetime value, subscriber segmentation and churn risk scoring  
-• Product & marketing dashboards that combine campaign spend with back end product data  
+• Product & marketing dashboards that combine campaign and back end product data  
 
 **Outcomes:**  
 Measurable impact in over a decade of freelance work derived almost entirely by referrals e.g.,  
