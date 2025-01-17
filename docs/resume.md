@@ -1,5 +1,6 @@
 # Gavin Cameron  
-Data Science, Analytics, Dashboards and Pipelines | Philadelphia, PA | [GitHub](https://github.com/gcameron89777) | [Linkedin](https://www.linkedin.com/in/gavinpcameron/)  
+Data Science, Analytics, Dashboards and Pipelines  
+Philadelphia, PA | [GitHub](https://github.com/gcameron89777) | [Linkedin](https://www.linkedin.com/in/gavinpcameron/)  
 
 ---
 
