@@ -1,5 +1,5 @@
 # Gavin Cameron  
-Data Science, Analytics, Dashboards and Pipelines | [GitHub](https://github.com/gcameron89777) | [Linkedin](https://www.linkedin.com/in/gavinpcameron/) | [Email](mailto:gavin_cameron@fastmail.co)
+Data Science, Analytics, Dashboards and Pipelines | Philadelphia, PA | [GitHub](https://github.com/gcameron89777) | [Linkedin](https://www.linkedin.com/in/gavinpcameron/)  
 
 ---
 
