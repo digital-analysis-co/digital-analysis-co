@@ -11,7 +11,7 @@ categories:
 
 ## Discrepancy Between Google Ads and Analytics
 
-When recently asked to place a Google Ads conversion tag for purchases on a site, I suggested just [importing the purchase event from the linked Google Analytics property](docs/blog/posts/share_events_google_analytics_google_ads). I got this [Gish Gallop](https://www.urbandictionary.com/define.php?term=Gish%20Gallop) response from marketing instead: <!-- more -->
+When recently asked to place a Google Ads conversion tag for purchases on a site, I suggested just [importing the purchase event from the linked Google Analytics property](../posts/share_events_google_analytics_google_ads.md). I got this [Gish Gallop](https://dictionary.cambridge.org/us/dictionary/english/gish-gallop) response from marketing instead: <!-- more -->
 
 > ... Instead of using GA4 data (70% is attributed to Direct, it is not reliable) can we use the Google Ads tag? That would be first party data, it's usually more accurate than importing the GA4 key event into the google ads account ...
 
