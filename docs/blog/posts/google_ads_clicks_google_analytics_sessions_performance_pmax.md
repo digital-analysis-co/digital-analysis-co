@@ -7,7 +7,11 @@ categories:
   - Performance Max (PMAX)
 ---
 
-When recently asked to place a Google Ads conversion tag for purchases on a site, I suggested just [importing the purchase event from Google Analytics](docs/blog/posts/share_events_google_analytics_google_ads). I got this [Gish Gollop](https://www.urbandictionary.com/define.php?term=Gish%20Gallop) response from marketing instead:
+# Google Ads and Analytics Attribution
+
+## Discrepancy Between Google Ads and Analytics
+
+When recently asked to place a Google Ads conversion tag for purchases on a site, I suggested just [importing the purchase event from Google Analytics](docs/blog/posts/share_events_google_analytics_google_ads). I got this [Gish Gallop](https://www.urbandictionary.com/define.php?term=Gish%20Gallop) response from marketing instead: <!-- more -->
 
 > ... Instead of using GA4 data (70% is attributed to Direct, it is not reliable) can we use the Google Ads tag? That would be first party data, it's usually more accurate than importing the GA4 key event into the google ads account ...
 
@@ -35,7 +39,7 @@ I did some research into [Performance Max (PMAX)](https://support.google.com/goo
 
 > Performance Max is a goal-based campaign type that allows performance advertisers to access all of their Google Ads inventory from a single campaign. It's designed to complement your keyword-based Search campaigns to help you find more converting customers across all of Google's channels like YouTube, Display, Search, Discover, Gmail, and Maps.
 
-Clicks are not necessarily clicks to the website, they could be Display, Youtube or Gmail Ad Expansion clicks. 
+On performance max campaigns clicks can mean different interaction types. They are not necessarily clicks to the website, they could be Display, Youtube or Gmail Ad Expansion clicks. 
 
 I'm not sure how to verify this is the issue, but the discrepancy is unique to the PMAX ads campaign and the description fits what we are seeing.
 
