@@ -35,6 +35,8 @@ In this case I did find something more tangible to report and explain the discre
 
 Except on one campaign of type Performance Max, where I saw ~2,000 Ad clicks compared to ~100 GA Sessions.
 
+## Performance Max (Pmax) Campaigns
+
 I did some research into [Performance Max (PMAX)](https://support.google.com/google-ads/answer/10724817?hl=en) campaigns.
 
 > Performance Max is a goal-based campaign type that allows performance advertisers to access all of their Google Ads inventory from a single campaign. It's designed to complement your keyword-based Search campaigns to help you find more converting customers across all of Google's channels like YouTube, Display, Search, Discover, Gmail, and Maps.
