@@ -11,11 +11,11 @@ categories:
 
 ## Discrepancy Between Google Ads and Analytics
 
-When recently asked to place a Google Ads conversion tag for purchases on a site, I suggested just [importing the purchase event from the linked Google Analytics](docs/blog/posts/share_events_google_analytics_google_ads). I got this [Gish Gallop](https://www.urbandictionary.com/define.php?term=Gish%20Gallop) response from marketing instead: <!-- more -->
+When recently asked to place a Google Ads conversion tag for purchases on a site, I suggested just [importing the purchase event from the linked Google Analytics property](docs/blog/posts/share_events_google_analytics_google_ads). I got this [Gish Gallop](https://www.urbandictionary.com/define.php?term=Gish%20Gallop) response from marketing instead: <!-- more -->
 
 > ... Instead of using GA4 data (70% is attributed to Direct, it is not reliable) can we use the Google Ads tag? That would be first party data, it's usually more accurate than importing the GA4 key event into the google ads account ...
 
-I responded that both Google Analytics and Ads are first party context.
+I responded that both Google Ads and Analytics are first party context.
 
 > ... but this has to do with cookieless policies and attribution accuracy, is not normal to have that high share of direct in the attribution mix
 
@@ -31,9 +31,9 @@ There are many reasons why Google Ads and Analytics will report different data. 
 
 I wanted to rule out an attribution issue further up from conversions so I compared Google Ads clicks with Google Analytics sessions at the campaign level.
 
-In this case I did find something more tangible to report and explain the discrepancy between Ads and Analytics. After pulling an Ads campaign report with campaign_type and clicks and aligning with Analytics sessions for the same date range, I noticed all campaigns showing sessions between 10 and 30% less than clicks, as expected.
+In this case I did find something more tangible to explain a discrepancy between Ads and Analytics. After pulling an Ads campaign report with campaign_type and clicks, and then aligning with Analytics sessions for the same date range, I noticed all campaigns showing sessions between 10-30% less than clicks, as expected.
 
-Except on one campaign of type Performance Max, where I saw ~2,000 Ad clicks compared to ~100 GA Sessions.
+Except on one campaign of type Performance Max, where I saw ~2,000 Ad clicks compared to ~100 Analytics Sessions.
 
 ## Performance Max (Pmax) Campaigns
 
@@ -45,5 +45,7 @@ On performance max campaigns, clicks can mean different interaction types. They 
 
 I'm not sure how to verify this is the issue, I could not find a click interaction type dimension in the Google Ads report builder, but the discrepancy is unique to the PMAX ads campaign and the description fits what we are seeing.
 
-I still added the Google Ads Conversion tag via Google Tag Manager. Hopefully I eased concerns about attribution between the two tools.
+None of the above explains a discrepancy in purchase conversions between the two tools, I had to infer that the problem was a more general lack of confidence in Google Analytics data stemming from click Vs. session discrepancy.
+
+I added the Google Ads Conversion tag via Google Tag Manager.
 
