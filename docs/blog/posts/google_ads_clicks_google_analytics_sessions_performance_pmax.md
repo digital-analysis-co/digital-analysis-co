@@ -25,7 +25,7 @@ In [The Wisdom Of Psychopaths](https://www.goodreads.com/book/show/13539039-the-
 
 After attempting to pull some simple ads data myself, I believe it's not that marketing attracts psychopaths but that working in the Google Ads browser UI breaks ones mind and turns you into one.
 
-Google Analytics is perenially attacked for reporting metrics below that of various digital ads platforms such as Google or Meta. Analytics will report between 10-30% less sessions than clicks for a given campaign and time period. Many users use ad blockers, and many bounce before the GA tag has had a chance to load.
+Google Analytics is perennially attacked for reporting metrics below that of various digital ads platforms such as Google or Meta. Analytics will report between 10-30% less sessions than clicks for a given campaign and time period. Many users use ad blockers, and many bounce before the GA tag has had a chance to load.
 
 There are many reasons why Google Ads and Analytics will report different data. Ads conversions are attributed to the date of click while analytics to the date of conversion. Sessions are downstream of clicks as outlined above. Some campaigns may not be tagged properly.
 
@@ -39,9 +39,9 @@ I did some research into [Performance Max (PMAX)](https://support.google.com/goo
 
 > Performance Max is a goal-based campaign type that allows performance advertisers to access all of their Google Ads inventory from a single campaign. It's designed to complement your keyword-based Search campaigns to help you find more converting customers across all of Google's channels like YouTube, Display, Search, Discover, Gmail, and Maps.
 
-On performance max campaigns clicks can mean different interaction types. They are not necessarily clicks to the website, they could be Display, Youtube or Gmail Ad Expansion clicks. 
+On performance max campaigns, clicks can mean different interaction types. They are not necessarily clicks to the website, they could be Display, Youtube or Gmail ad expansion clicks. 
 
-I'm not sure how to verify this is the issue, but the discrepancy is unique to the PMAX ads campaign and the description fits what we are seeing.
+I'm not sure how to verify this is the issue, I could not find a click interaction type dimension in the Google Ads report builder, but the discrepancy is unique to the PMAX ads campaign and the description fits what we are seeing.
 
-I still added the Google Ads Conversion tag via Google Tag Manager.
+I still added the Google Ads Conversion tag via Google Tag Manager. Hopefully I eased concerns about attribution between the two tools.
 
