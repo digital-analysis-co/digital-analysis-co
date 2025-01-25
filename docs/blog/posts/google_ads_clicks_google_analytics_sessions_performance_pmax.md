@@ -19,11 +19,11 @@ I responded that both Google Ads and Analytics are first party data.
 
 > ... but this has to do with cookieless policies and attribution accuracy, is not normal to have that high share of direct in the attribution mix
 
-There's often a tension between marketing and analytics. Though on the same team, one reports on the success of the other. 
+There's often a tension between marketing and analytics. Though on the same team, one reports on the success of the other.
 
-In [The Wisdom Of Psychopaths](https://www.goodreads.com/book/show/13539039-the-wisdom-of-psychopaths) Kevin Dutton provides a list where  media and sales people are the 3rd and 4th most psycopathic professions.
+In this case I had to infer that the issue wasn't with a particular conversion event but a more general distrust of Google Analytics data for reporting on paid search campaigns.
 
-After attempting to pull some simple ads data myself, I believe it's not that marketing attracts psychopaths but that working in the Google Ads browser UI breaks ones mind and turns you into one.
+After attempting to pull some simple ads data myself, I have a new found empathy for marketers who have to spend time in the Google Ads UI.
 
 Google Analytics is perennially attacked for reporting metrics below that of various digital ads platforms such as Google or Meta. Analytics will report between 10-30% less sessions than clicks for a given campaign and time period. Many users use ad blockers, and many bounce before the GA tag has had a chance to load.
 
