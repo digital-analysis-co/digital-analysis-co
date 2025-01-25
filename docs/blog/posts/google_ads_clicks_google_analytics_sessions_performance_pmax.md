@@ -15,7 +15,7 @@ When recently asked to place a Google Ads conversion tag for purchases on a site
 
 > ... Instead of using GA4 data (70% is attributed to Direct, it is not reliable) can we use the Google Ads tag? That would be first party data, it's usually more accurate than importing the GA4 key event into the google ads account ...
 
-I responded that both Google Ads and Analytics are first party context.
+I responded that both Google Ads and Analytics are first party data.
 
 > ... but this has to do with cookieless policies and attribution accuracy, is not normal to have that high share of direct in the attribution mix
 
