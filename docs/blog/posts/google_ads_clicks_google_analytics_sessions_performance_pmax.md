@@ -17,13 +17,13 @@ When recently asked to place a Google Ads conversion tag for purchases on a site
 
 I responded that both Google Ads and Analytics are first party data.
 
-> ... but this has to do with cookieless policies and attribution accuracy, is not normal to have that high share of direct in the attribution mix
+> ... but this has to do with cookieless policies and attribution accuracy, it is not normal to have that high share of direct in the attribution mix
 
 There's often a tension between marketing and analytics. Though on the same team, one reports on the success of the other.
 
 In this case I had to infer that the issue wasn't with a particular conversion event but a more general distrust of Google Analytics data for reporting on paid search campaigns.
 
-After attempting to pull some simple ads data myself, I have a new found empathy for marketers who have to spend time in the Google Ads UI.
+After attempting to pull some simple ads data myself, I have a newfound empathy for marketers who have to spend time in the Google Ads UI.
 
 Google Analytics is perennially attacked for reporting data less than that of various digital ads platforms such as Google or Meta. Google Analytics will typically report between 10-30% less sessions than Google Ads clicks for a given campaign and time period. Many users use ad blockers, and many bounce before the analytics tag has had a chance to load. Ads conversions are attributed to the date of click while analytics to the date of conversion. Some campaigns may not be tagged properly.
 
@@ -39,7 +39,7 @@ I did some research into [Performance Max (PMAX)](https://support.google.com/goo
 
 > Performance Max is a goal-based campaign type that allows performance advertisers to access all of their Google Ads inventory from a single campaign. It's designed to complement your keyword-based Search campaigns to help you find more converting customers across all of Google's channels like YouTube, Display, Search, Discover, Gmail, and Maps.
 
-On performance max campaigns, clicks can mean different interaction types. They are not necessarily clicks to the website, they could be Display, Youtube or Gmail ad expansion clicks. 
+On performance max campaigns, clicks can mean different interaction types. They are not necessarily clicks to the website, they could be Display, YouTube or Gmail ad expansion clicks. 
 
 I'm not sure how to verify this is the issue, I could not find a click interaction type dimension in the Google Ads report builder, but the discrepancy is unique to the PMAX ads campaign and the description fits what we are seeing.
 
