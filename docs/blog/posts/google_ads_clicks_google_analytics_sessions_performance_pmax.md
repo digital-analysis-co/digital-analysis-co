@@ -25,9 +25,7 @@ In this case I had to infer that the issue wasn't with a particular conversion e
 
 After attempting to pull some simple ads data myself, I have a new found empathy for marketers who have to spend time in the Google Ads UI.
 
-Google Analytics is perennially attacked for reporting metrics below that of various digital ads platforms such as Google or Meta. Analytics will report between 10-30% less sessions than clicks for a given campaign and time period. Many users use ad blockers, and many bounce before the GA tag has had a chance to load.
-
-There are many reasons why Google Ads and Analytics will report different data. Ads conversions are attributed to the date of click while analytics to the date of conversion. Sessions are downstream of clicks as outlined above. Some campaigns may not be tagged properly.
+Google Analytics is perennially attacked for reporting data less than that of various digital ads platforms such as Google or Meta. Google Analytics will typically report between 10-30% less sessions than Google Ads clicks for a given campaign and time period. Many users use ad blockers, and many bounce before the analytics tag has had a chance to load. Ads conversions are attributed to the date of click while analytics to the date of conversion. Some campaigns may not be tagged properly.
 
 I wanted to rule out an attribution issue further upstream from conversions so I compared Google Ads clicks with Google Analytics sessions at the campaign level.
 
@@ -45,7 +43,5 @@ On performance max campaigns, clicks can mean different interaction types. They 
 
 I'm not sure how to verify this is the issue, I could not find a click interaction type dimension in the Google Ads report builder, but the discrepancy is unique to the PMAX ads campaign and the description fits what we are seeing.
 
-None of the above explains a discrepancy in purchase conversions between the two tools, I had to infer that the problem was a more general lack of confidence in Google Analytics data stemming from click Vs. session discrepancy.
-
-I still added the Google Ads Conversion tag via Google Tag Manager.
+I still added the Google Ads Conversion tag via Google Tag Manager. Hopefully I restored some confidence in Google Analytics data by explaining the main source of discrepancy in this case.
 
