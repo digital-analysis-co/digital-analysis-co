@@ -89,6 +89,6 @@ Then set the tag to fire on the event you want to track as a conversion. If the 
 
 ## Gotchas
 
-Make sure your gtag consent settings are configured for cookie consent. Consent settings are available at https://tagmanager.google.com/#/home#tags, select the correct gtag and click through to settings then select 'Show more' > 'Manage default consent settings for data collection' and select the appropriate option.
+Make sure your gtag consent settings are configured for cookie consent. Consent settings are available at [https://tagmanager.google.com/#/home#tags](https://tagmanager.google.com/#/home#tags), select the correct gtag and click through to settings then select 'Show more' > 'Manage default consent settings for data collection' and select the appropriate option.
 
 In the case of a Google Ads Conversion Tag via GTM, make sure you have a gtag that corresponds to the Google Ads account in question on the site. While recently debugging why a conversion tag was labelled as 'inactive' in the Ads interface, I found that the gtag on the site was for another Ads account. I added the correct gtag id as a destination which got things working.
