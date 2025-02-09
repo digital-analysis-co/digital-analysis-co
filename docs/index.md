@@ -1,4 +1,4 @@
-# Data Analytics
+# Subscriber Lifecycle & Digital Analytics
 
 Thanks for visiting. [Contact me](https://www.linkedin.com/in/gavinpcameron/) for data support.
 
