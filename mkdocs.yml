@@ -1,5 +1,7 @@
 site_name: Digital Analysis Co
 
+site_url: https://digitalanalysis.co/
+
 nav:
   - Home: index.md
   - Resume: resume.md
