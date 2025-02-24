@@ -70,5 +70,4 @@ Whereas using the parametric model gives a better, fairer result since it can lo
 
 These resulting LTV multipliers can be applied to new subscriptions to calculate expected lifetime value.
 
-Notes:
-* Add notebook at end
+[Code used for the analysis and plots is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
