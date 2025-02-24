@@ -27,9 +27,10 @@ The gist of this post is exporting GA4 data into Google Storage (GS) whenever ex
 GA4 data are extracted at inconsistent times and daily tables can be updated up to 72 hours or longer after the date of the table (See linked documentation above for details).
 
 I used Github Actions (GHA) with this workflow but you could keep it all in a cloud function if you prefer. I chose Github Actions here because:
- * In addition to running the AWS extract automatically on each update, you can also back fill over a custom date range using user input fields in the Actions tab of your repo. The actions tab is a convenient UI.
- * The GHA community actions and marketplace make it very easy and convenient to use additional tools in your workflow, in this case the Google Cloud cli. The AWS cli is already pre-installed on the runners.
- * You might want to trigger other workflows after GA4 data have been ingested, such as running some DBT models.
+
+* In addition to running the AWS extract automatically on each update, you can also back fill over a custom date range using user input fields in the Actions tab of your repo. The actions tab is a convenient UI.
+* The GHA community actions and marketplace make it very easy and convenient to use additional tools in your workflow, in this case the Google Cloud cli. The AWS cli is already pre-installed on the runners.
+* You might want to trigger other workflows after GA4 data have been ingested, such as running some DBT models.
 
 Approach:
 1. (Google Cloud) Create a Pub/Sub topic using the Logs Router which listens for GA4 daily extract updates and is used to trigger a cloud function and pass details to the function, including the extract event date for the data.
