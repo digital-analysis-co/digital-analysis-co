@@ -13,9 +13,7 @@ There are multiple ways to calculate subscriber survival and expected lifetime v
 
 ## Example Data
 
-One well-known churn dataset is the [IBM Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), also hosted on Kaggle. 
-
-[Code used for this analysis is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
+One well-known churn dataset is the [IBM Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), also hosted on Kaggle.
 
 ## Spreadsheet
 
@@ -50,6 +48,8 @@ Use cases:
 * Adjust campaign ad spend based on expected lifetime ROAS of a cohort
 
 ### Workflow
+
+[Code used for this analysis is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
 
 The plot below shows actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model tested.
 
