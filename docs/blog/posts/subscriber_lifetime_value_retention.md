@@ -51,13 +51,15 @@ Use cases:
 
 [Code used for this analysis is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
 
-The plots below shows actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model I tried.
+The plots below show actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model I tried.
 
-Since the models were only trained on 12 months of data, everything after 12 months on the light blue curves is extrapolated.
+The models were only trained on 12 months of data, so everything after 12 months on the light blue curves is extrapolated and can be compared to actual on the dark blue line.
 
 In this case, just eyeballing the plots, the mixture model combining Weibull and Exponential Decay, fitted actual data out to 24 months a little better than Weibull or LogLogistic by themselves.
 
 ![Parametric Models & Telco Survival](../images/subscriber_lifetime_value_retention/various_parametric_models_&_telco_churn.png)
+
+Once a best fit model has been identified, we could retrain it on all available data and predict out into the future for time periods we don't yet have history for.
 
 ## Expected Survival Time (LTV)
 
