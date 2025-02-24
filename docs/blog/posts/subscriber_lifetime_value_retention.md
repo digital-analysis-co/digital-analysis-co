@@ -15,6 +15,8 @@ There are multiple ways to calculate subscriber survival and expected lifetime v
 
 One well-known churn dataset is the [IBM Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), also hosted on Kaggle. 
 
+[Code used for this analysis is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
+
 ## Spreadsheet
 
 I downloaded the Telco Churn data into Google Sheets [here](https://docs.google.com/spreadsheets/d/1L5AxjLZdCqSKOZEfRCFpV8iN5eDYxnE7t8sbRvfFRSQ/edit?usp=sharing).
@@ -70,5 +72,3 @@ Whereas using the parametric model gives a better, fairer result since it can lo
 ![Expected Survival using Weibull](../images/subscriber_lifetime_value_retention/Weibull_Expected_Survival.png)
 
 These resulting LTV multipliers can be applied to new subscriptions to calculate expected lifetime value.
-
-[Code used for the analysis and plots is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
