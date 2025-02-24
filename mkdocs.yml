@@ -17,7 +17,7 @@ nav:
 plugins:
   - blog:
       archive: false
-      categories: false
+      categories: true
 
 theme:
   name: material
