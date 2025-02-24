@@ -42,9 +42,9 @@ Unlike Kaplan-Meier, parametric models can extrapolate to predict survival for f
 To demonstrate this, I cut the Telco data at 12 months and then used the resulting fit to extrapolate out an additional year to 24 months. 
 
 Use cases:
-* New business with less historic data trying to estimate future retention
-* Product AB testing, where you can model expected survival vs. a test group
-* Adjust campaign ad spend based on expected lifetime ROAS of a cohort
+ * New business with less historic data trying to estimate future retention
+ * Product AB testing, where you can model expected survival vs. a test group
+ * Adjust campaign ad spend based on expected lifetime ROAS of a cohort
 
 ### Workflow
 
