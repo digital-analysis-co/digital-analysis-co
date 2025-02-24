@@ -31,7 +31,7 @@ A drawback of this non-parametric method is that the LTV is determined by how mu
 
 ![Kaplan-Meier Expected Mean Value For Various Tenures](../images/subscriber_lifetime_value_retention/km_estimated_ltv_various_tenures.png)
 
-The approach outlined in the spreadsheet is known as Kaplan-Meier, and it's better for understanding survival probability at a given timepoint where history exists within the data rather than providing an overall expected survival value.
+The curve above from the spreadsheet approach is known as Kaplan-Meier, and it's better for understanding survival probability at a given timepoint where history exists within the data rather than providing an overall expected survival value.
 
 Kaplan-Meier is often a first look at survival analysis for a business and is just `churned accounts / accounts that could have churned` for each time period.
 
