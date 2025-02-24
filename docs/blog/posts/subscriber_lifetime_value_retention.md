@@ -51,11 +51,11 @@ Use cases:
 
 [Code used for this analysis is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
 
-The plot below shows actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model tested.
+The plots below shows actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model I tried.
 
 Since the models were only trained on 12 months of data, everything after 12 months on the light blue curves is extrapolated.
 
-In this case, just eyeballing the plots, the mixture model combining Weibull and Exponential Decay fits actual data out to 24 months a little better than Weibull by itself.
+In this case, just eyeballing the plots, the mixture model combining Weibull and Exponential Decay, fitted actual data out to 24 months a little better than Weibull or LogLogistic by themselves.
 
 ![Parametric Models & Telco Survival](../images/subscriber_lifetime_value_retention/various_parametric_models_&_telco_churn.png)
 
@@ -63,7 +63,7 @@ In this case, just eyeballing the plots, the mixture model combining Weibull and
 
 Integrating a survival curve gives the mean expected survival time. Multiply your monthly or annual revenue by this mean survival time to get an LTV estimate for a new subscriber.
 
-Since the parametric curves level off, we need to define a hard cutoff such as 3, 4, or 5 years.
+Since the parametric curves level off, we need to define a hard cutoff such as 3, 4, or 5 years before integrating.
 
 If we only had 24 months of history, integrating the Kaplan-Meier curve would give an expected survival time of 20.5 months (See the table of expected survival probabilities above).
 
