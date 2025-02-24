@@ -59,7 +59,7 @@ Once the Pub / Sub sink has been created per the previous step, create a [Cloud 
 
 How mine looks:
 
- ![Cloud Function](../images/cloud_func.png)
+![Cloud Function](../images/cloud_func.png)
 Configure the following environment variables with your function:
  
   * `OWNER`: The repo owner of the repo where the workflow will be triggered. github.com/\<owner\>/\<repo name\>

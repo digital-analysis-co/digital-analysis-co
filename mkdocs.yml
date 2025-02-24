@@ -10,7 +10,7 @@ nav:
 
 # for github pages /docs is reserved for generated site pages, so swapping the mkdocs special dir /docs to be /src
 # Sync /docs with /docs on the repo to push changes to the site
-# no longer needed sinc emoving to GHA
+# no longer needed since moving to Github Actions
 # site_dir: docs
 # docs_dir: src
 
