@@ -59,7 +59,7 @@ In this case, just eyeballing the plots, the mixture model combining Weibull and
 
 ![Parametric Models & Telco Survival](../images/subscriber_lifetime_value_retention/various_parametric_models_&_telco_churn.png)
 
-Once a best fit model has been identified, we could retrain it on all available data and predict out into the future for time periods we don't yet have history for.
+Once a best fit model has been identified, we could retrain it on all available data and predict into the future for time periods we don't yet have history for.
 
 ## Expected Survival Time (LTV)
 
