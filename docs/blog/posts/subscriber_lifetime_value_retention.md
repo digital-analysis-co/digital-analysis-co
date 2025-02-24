@@ -7,7 +7,7 @@ categories:
 
 # Subscriber Lifetime Value Modeling
 
-While working on a marketing campaign dashboard that reports Return on Ad Spend (ROAS) at the campaign level, I was asked to include predicted lifetime value (LTV) alongside current 'ROAS to date'. This would make a case for increased spend on ads by justifying higher bids at the margin.
+While working on a marketing campaign dashboard that reports Return on Ad Spend (ROAS) at the campaign level, I was asked to include predicted lifetime value (LTV) alongside current 'ROAS to date'. This would make a case for increased spend on ads by justifying higher bids at the margin. <!-- more -->
 
 There are multiple ways to calculate subscriber survival and expected lifetime value. In this example I calculated survival curves, then integrated the best fitting model to get expected value.
 
