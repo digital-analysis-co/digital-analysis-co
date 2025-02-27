@@ -23,9 +23,9 @@ For each tenure, I took the count of churned accounts as the numerator and, for 
 
 ![Telco Subscriber Survival Curve](../images/subscriber_lifetime_value_retention/telco_survival_by_tenure.png)
 
-This curve is useful if you'd like to know the % probability that an account is still with you after a given number of months, e.g., 10, 20, 30 months gives 85%, 80%, and 77%.
+This curve provides the probability that an account remains active after a given number of months, e.g., 10, 20, 30 months gives 85%, 80%, and 77%.
 
-Integrating a survival curve gives you the mean or expected lifetime value, in this case of 54 months.
+Integrating a survival curve provides the mean expected lifetime value, in this case of 54 months.
 
 A drawback of this non-parametric method is that the LTV is determined by how much historic data you have. The table below, from the same linked spreadsheet above, calculates the estimated value, but having restricted the available history to each corresponding bin.
 
@@ -75,7 +75,7 @@ Since parametric curves level off, a hard cutoff, such as 3, 4, or 5 years, must
 
 With only 24 months of history, integrating the Kaplan-Meier curve estimates survival at 20.5 months (see the table in the "Spreadsheet" section above).
 
-In contrast, the parametric model provides a more reliable estimate by extending beyond the initial 24 months.
+In contrast, provided there is a good fit, the parametric model provides a more reliable estimate by extending beyond the initial 24 months.
 
 Integrating the model’s 36-month survival curve yields an average survival of 29.6 months.
 
