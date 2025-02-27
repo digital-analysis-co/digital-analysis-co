@@ -27,7 +27,7 @@ This curve is useful if you'd like to know the % probability that an account is 
 
 Integrating a survival curve gives you the mean or expected lifetime value, in this case of 54 months.
 
-A drawback of this non-parametric method is that the LTV is determined by how much historic data you have. The table below calculates the estimated value, but having restricted the available history to each corresponding bin.
+A drawback of this non-parametric method is that the LTV is determined by how much historic data you have. The table below, from the same linked spreadsheet above, calculates the estimated value, but having restricted the available history to each corresponding bin.
 
 ![Kaplan-Meier Expected Mean Value For Various Tenures](../images/subscriber_lifetime_value_retention/km_estimated_ltv_various_tenures.png)
 
@@ -69,16 +69,16 @@ Now that a best fit model has been identified, retrain it on all available 24 mo
 
 ## Expected Survival Time (LTV)
 
-Integrating a survival curve gives the mean expected survival time. Multiply your monthly or annual revenue by this mean survival time to get an LTV estimate for a new subscriber.
+Integrating a survival curve gives the mean expected survival time. Multiply monthly or annual revenue by this value to estimate LTV for a new subscriber.
 
-Since the parametric curves level off, we need to define a hard cutoff such as 3, 4, or 5 years before integrating.
+Since parametric curves level off, a hard cutoff, such as 3, 4, or 5 years, must be defined before integration.
 
-If we only had 24 months of history, integrating the Kaplan-Meier curve would give an expected survival time of 20.5 months (See the table of expected survival probabilities above).
+With only 24 months of history, integrating the Kaplan-Meier curve estimates survival at 20.5 months (see the table in the "Spreadsheet" section above).
 
-Whereas using the parametric model gives a better, fairer result since it can look beyond the initial 24 months. 
+In contrast, the parametric model provides a more reliable estimate by extending beyond the initial 24 months.
 
-36 months gives an expected survival of 29.6 months.
+Integrating the model’s 36-month survival curve yields an average survival of 29.6 months.
 
 ![Expected Survival using Weibull](../images/subscriber_lifetime_value_retention/Weibull_Expected_Survival.png)
 
-These resulting LTV multipliers can be applied to new subscriptions to calculate expected lifetime value.
+These LTV multipliers can be applied to new subscriptions to estimate expected lifetime value.
