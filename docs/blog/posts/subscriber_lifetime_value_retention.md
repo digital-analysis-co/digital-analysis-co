@@ -27,7 +27,7 @@ This curve is useful if you'd like to know the % probability that an account is 
 
 Integrating a survival curve gives you the mean or expected lifetime value, in this case of 54 months.
 
-A drawback of this non-parametric method is that the LTV is determined by how much historic data you have. The table below calculates the estimated value, but having restricted the history to each corresponding bin.
+A drawback of this non-parametric method is that the LTV is determined by how much historic data you have. The table below calculates the estimated value, but having restricted the available history to each corresponding bin.
 
 ![Kaplan-Meier Expected Mean Value For Various Tenures](../images/subscriber_lifetime_value_retention/km_estimated_ltv_various_tenures.png)
 
@@ -39,7 +39,7 @@ Kaplan-Meier is often a first look at survival analysis for a business and is ju
 
 Unlike Kaplan-Meier, parametric models can extrapolate to predict survival for future, unseen time periods.
 
-To demonstrate this, I cut the Telco data at 12 months and then used the resulting fit to extrapolate out an additional year to 24 months. 
+To demonstrate this, pretend there's only data for 24 months whereas the goal might be to understand survival by 36 or even 48 months.
 
 Use cases:
 
@@ -51,15 +51,21 @@ Use cases:
 
 [Code used for this analysis is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
 
+Since there are 24 months total history in this scenario:
+
+* **Train** a model on the first 12 months
+* **Test** the model against actual between 13 and 24 months
+* Refit the chosen best fit model on the full 24 months of available data and then **Predict** out to 36 months
+
 The plots below show actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model I tried.
 
-The models were only trained on 12 months of data, so everything after 12 months on the light blue curves is extrapolated and can be compared to actual on the dark blue line.
+The models were only trained on 12 months of data, so everything after 12 months on the light blue curves is extrapolated and can be compared to the actual dark blue line.
 
-In this case, just eyeballing the plots, the mixture model combining Weibull and Exponential Decay, fitted actual data out to 24 months a little better than Weibull or LogLogistic by themselves.
+In this case, just eyeballing the plots, the mixture model combining Weibull and Exponential Decay fitted actual data out to 24 months a little better than Weibull or LogLogistic by themselves.
 
 ![Parametric Models & Telco Survival](../images/subscriber_lifetime_value_retention/various_parametric_models_&_telco_churn.png)
 
-Once a best fit model has been identified, we can retrain it on all available data and predict into the future for time periods we don't yet have history for.
+Now that a best fit model has been identified, retrain it on all available 24 months of data, and then predict into the future for time periods we don't yet have history for, such as 36 months.
 
 ## Expected Survival Time (LTV)
 
@@ -69,7 +75,9 @@ Since the parametric curves level off, we need to define a hard cutoff such as 3
 
 If we only had 24 months of history, integrating the Kaplan-Meier curve would give an expected survival time of 20.5 months (See the table of expected survival probabilities above).
 
-Whereas using the parametric model gives a better, fairer result since it can look beyond the initial 24 months.
+Whereas using the parametric model gives a better, fairer result since it can look beyond the initial 24 months. 
+
+36 months gives an expected survival of 29.6 months.
 
 ![Expected Survival using Weibull](../images/subscriber_lifetime_value_retention/Weibull_Expected_Survival.png)
 
