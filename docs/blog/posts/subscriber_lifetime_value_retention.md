@@ -65,7 +65,7 @@ In this case, just eyeballing the plots, the mixture model combining Weibull and
 
 ![Parametric Models & Telco Survival](../images/subscriber_lifetime_value_retention/various_parametric_models_&_telco_churn.png)
 
-Having identified the best fit model, I then retrained it on the full 24 months of available data, and then predicted into the future to 36 months.
+Having identified the best fit model, I retrained it on the full 24 months of available data, and then predicted into the future to 36 months.
 
 ## Expected Survival Time (LTV)
 
