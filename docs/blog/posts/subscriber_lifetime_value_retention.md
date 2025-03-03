@@ -19,7 +19,7 @@ One well-known churn dataset is the [IBM Telco Customer Churn Dataset](https://w
 
 I downloaded the Telco Churn data into Google Sheets [here](https://docs.google.com/spreadsheets/d/1L5AxjLZdCqSKOZEfRCFpV8iN5eDYxnE7t8sbRvfFRSQ/edit?usp=sharing).
 
-For each tenure, I took the count of churned accounts as the numerator and, for the denominator, accounts with as much or more tenure i.e., if an account is only 3 months old, it is not included in the denominator for survival of tenures of 4 or more months. YThis approach is called Kaplan-Meier and here is the resulting survival curve:
+For each tenure, I took the count of churned accounts as the numerator and, for the denominator, accounts with as much or more tenure i.e., if an account is only 3 months old, it is not included in the denominator for survival of tenures of 4 or more months. This approach is called Kaplan-Meier and here is the resulting survival curve:
 
 ![Telco Subscriber Survival Curve](../images/subscriber_lifetime_value_retention/telco_survival_by_tenure.png)
 
@@ -75,7 +75,7 @@ Since parametric curves level off, a hard cutoff, such as 3, 4, or 5 years, must
 
 With only 24 months of history, integrating the Kaplan-Meier curve estimates survival at 20.5 months (see the table in the "Spreadsheet" section above). In contrast, integrating the mixture model’s 36-month survival curve yields an average survival of 29.6 months.
 
-The parametric model provides a fairer estimate by extending beyond the initial 24 months of immdiatley available data.
+The parametric model provides a fairer estimate by extending beyond the initial 24 months of immediatley available data.
 
 ![Expected Survival using Weibull](../images/subscriber_lifetime_value_retention/Weibull_Expected_Survival.png)
 

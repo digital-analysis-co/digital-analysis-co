@@ -60,7 +60,7 @@ Once the Pub / Sub sink has been created per the previous step, create a [Cloud 
 
 How mine looks:
 
-![Cloud Function](../images/cloud_func.png)
+![Cloud Function](../images/google_analytics_extract_to_aws/cloud_func.png)
 Configure the following environment variables with your function:
  
   * `OWNER`: The repo owner of the repo where the workflow will be triggered. github.com/\<owner\>/\<repo name\>
@@ -70,11 +70,11 @@ Configure the following environment variables with your function:
 
 Over in Github, create a personal access token and store it in Google Cloud as a secret called `PAT`. This should be a Github access token which has permission to read and write to the repo. Go to [developer settings](https://github.com/settings/personal-access-tokens) in Github and create a new fine grained access token and give it appropriate permissions.
 
-![Fine Grained Access Token](../images/fine_grained_access_settings.png)
+![Fine Grained Access Token](../images/google_analytics_extract_to_aws/fine_grained_access_settings.png)
  
 Back in Google Cloud, your cloud function variables tab should look similar to this:
 
-![Cloud Function Vars](../images/cloud_func_vars.png)
+![Cloud Function Vars](../images/google_analytics_extract_to_aws/cloud_func_vars.png)
 
 Next we need a function to tell the Github Actions workflow that new data are available for a specific date. The `DATE_PART` comes from the event data that comes with the pub / sub topic trigger. You can paste code directly into a cloud function or sync with a repo. I used the following Python for the function.
 
@@ -152,11 +152,11 @@ You can test the function in the GCP UI, you should get a 'OK' message like in t
 
 The function pings your repo via an http request and sends the event date along with it. This will be used in the workflow to extract data from Big Query and to then send along to AWS S3 via Google Storage.
 
-![Cloud Function Test OK](../images/test_ok.png)
+![Cloud Function Test OK](../images/google_analytics_extract_to_aws/test_ok.png)
 
 Once Github Actions are set up and authorization is done (steps are further down), you should also see a screen within Github Actions like this when testing the workflow:
 
-![Cloud Function Test OK](../images/test_webhook_gha.png)
+![Cloud Function Test OK](../images/google_analytics_extract_to_aws/test_webhook_gha.png)
 
 ## Rsync data between Google Storage and S3
 
@@ -290,7 +290,7 @@ Data are extracted using gsutil to Google Storage using `bq extract`. The data a
 
 When GA4 data are updated in Big Query and the workflow triggers you should see the webhook_gcloud event in the actions tab, like this:
 
-![Actions workflow run via webhook](../images/webhook_gcloud.png)
+![Actions workflow run via webhook](../images/google_analytics_extract_to_aws/webhook_gcloud.png)
 Notice how there are several updates within any 24 hour period. GA4 data are updated several times a day.
 
 You should now be able ingest this json into your db engine of choice. One approach is using a lambda function with a listener on updates to the S3 bucket. The following example schema for Redshift mirrors the Big Query schema:

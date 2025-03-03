@@ -27,15 +27,15 @@ According to [Google's guide to sharing data between GA4 and Google Ads](https:/
 
 Check if a link already exists by navigating to the GA interface: Admin > Product Links > Google Ads Links.
 
-![Google Analytics Ads Link in Admin Area](../images/Google_Analytics_Google_Ads_Links.png)
+![Google Analytics Ads Link in Admin Area](../images/share_events_google_analytics_google_ads/Google_Analytics_Google_Ads_Links.png)
 
 Once you open that link you, should be able to see any existing Google Ads links, or add one if you have sufficient permissions.
 
 With an active link you can then import any GA4 event as a goal in Google Ads: Goals > Conversions > Summary > Create Conversion Action > Import > Google Analytics 4 > Web. Then select the event that you would like to import.
 
-![Google Ads Link GA4 Create Conversion Action](../images/Google_Ads_Link_GA4_Create_Conversion_Action.png)
+![Google Ads Link GA4 Create Conversion Action](../images/share_events_google_analytics_google_ads/Google_Ads_Link_GA4_Create_Conversion_Action.png)
 
-![Google Ads Import GA4 Event Select Kind of Event](../images/Google_Ads_Import_GA4_Event_Select_Kind_of_Event.png)
+![Google Ads Import GA4 Event Select Kind of Event](../images/share_events_google_analytics_google_ads/Google_Ads_Import_GA4_Event_Select_Kind_of_Event.png)
 
 Following this drill down will lead to a screen showing events that are available to share from GA4.
 
@@ -53,21 +53,21 @@ This route makes sense if you have gtag on the page and are not using Google Tag
 
 Access Google Tag admin via Tag Manager [https://tagmanager.google.com/#/home](https://tagmanager.google.com/#/home) then click on "Google Tags"
 
-![Navigate to Google Tag Admin](../images/navigate_to_google_tag_admin.png)
+![Navigate to Google Tag Admin](../images/share_events_google_analytics_google_ads/navigate_to_google_tag_admin.png)
 
 Locate the Google Tag which currently receives your Google Analytics event stream and click through on it, then click the Google Tag box to administer the tag.
 
-![Open the Google Tag's Settings](../images/click_to_open_google_tags_settings.png)
+![Open the Google Tag's Settings](../images/share_events_google_analytics_google_ads/click_to_open_google_tags_settings.png)
 
 Then click "+ Destination" to see available tags to add.
 
-![Add a Destination to Google Tag Gtag](../images/add_destination_google_tag.png)
+![Add a Destination to Google Tag Gtag](../images/share_events_google_analytics_google_ads/add_destination_google_tag.png)
 
 Clicking through on that button will lead to a list of tags that you have admin access to. Note the message at the bottom of the page:
 
 > You have admin access to the tags listed. If you don't see the tag you are looking for, you may not have the appropriate user permissions to make the changes to that Google tag. [Learn more](https://support.google.com/tagmanager/answer/6107011)
 
-![Navigate to Google Tag Admin](../images/google_tags_with_admin_access.png)
+![Navigate to Google Tag Admin](../images/share_events_google_analytics_google_ads/google_tags_with_admin_access.png)
 
 To add a Google Ads tag as a destination select from the list of available Google Tags.
 
@@ -79,11 +79,11 @@ I won't add too much detail here since this is already a well known and common a
 
 After creating the goal, under tag set up choose 'Google Tag Manager' to obtain the required params. The generated tag will include a conversion ID and label which you can use to populate the tag template in Google Tag Manager.
 
-![Google Ads Conversion Tracking Tag](../images/add_google_ads_goal_with_google_tag_manager.png)
+![Google Ads Conversion Tracking Tag](../images/share_events_google_analytics_google_ads/add_google_ads_goal_with_google_tag_manager.png)
 
 After clicking, note the conversion ID and label you need to add to Google Tag Manager:
 
-![Google Ads Conversion Tracking Tag](../images/google_ads_conversion_tracking_tag.png)
+![Google Ads Conversion Tracking Tag](../images/share_events_google_analytics_google_ads/google_ads_conversion_tracking_tag.png)
 
 Then set the tag to fire on the event you want to track as a conversion. If the event is a purchase you can also include the revenue amount (Conversion Value), transaction ID and currency code.
 
