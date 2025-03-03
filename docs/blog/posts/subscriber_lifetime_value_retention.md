@@ -23,7 +23,7 @@ For each tenure, I took the count of churned accounts as the numerator and, for 
 
 ![Telco Subscriber Survival Curve](../images/subscriber_lifetime_value_retention/telco_survival_by_tenure.png)
 
-This curve provides the probability that an account remains active after a given number of months, e.g., 10, 20, 30 months gives 85%, 80%, and 77%.
+This curve provides the probability that an account remains active after a given number of months, e.g., 12, 24, 36 months gives 84%, 79%, and 75%.
 
 Calculating the average of the area under the curve by integrating it gives the expected lifetime value, in this case of 54 months.
 
