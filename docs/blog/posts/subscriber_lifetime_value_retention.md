@@ -19,7 +19,7 @@ One well-known churn dataset is the [IBM Telco Customer Churn Dataset](https://w
 
 I downloaded the Telco Churn data into Google Sheets [here](https://docs.google.com/spreadsheets/d/1L5AxjLZdCqSKOZEfRCFpV8iN5eDYxnE7t8sbRvfFRSQ/edit?usp=sharing).
 
-For each tenure, I took the count of churned accounts as the numerator and, for the denominator, accounts with as much or more tenure i.e., if an account is only 3 months old, it is not included in the denominator for survival of tenures of 4 or more months. This approach is called Kaplan-Meier and here is the resulting survival curve:
+For each tenure, I took the count of churned accounts as the numerator and, for the denominator, accounts with as much or more tenure i.e., if an account is only 3 months old, it is not included in the denominator for survival of tenures of 4 or more months. This approach is called Kaplan-Meier and here is the resulting survival curve using the telco churn dataset:
 
 ![Telco Subscriber Survival Curve](../images/subscriber_lifetime_value_retention/telco_survival_by_tenure.png)
 
@@ -27,11 +27,13 @@ This curve provides the probability that an account remains active after a given
 
 Calculating the average of the area under the curve by integrating it gives the expected lifetime value, in this case of 54 months.
 
-A drawback of this non-parametric method is that the expected retention value is determined by how much historic data you have. 
+A drawback of this non-parametric method is that the expected survival value is determined by how much historic data you have. 
 
-The table below, from the same linked spreadsheet above, calculates the estimated value, but having restricted the available history to each corresponding bin.
+The table below, from the same linked spreadsheet above, shows the estimated survival value, but having restricted the available history to each corresponding bin.
 
 ![Kaplan-Meier Expected Mean Value For Various Tenures](../images/subscriber_lifetime_value_retention/km_estimated_ltv_various_tenures.png)
+
+Had the telco data been for a new business with only 12 months of history, integrating the survival curve would have provided a misleading expected survival of only 10.7 months.
 
 Kaplan-Meier is useful for understanding survival probability at a given timepoint where history exists within the data rather than providing an overall expected survival value. It is often a first look at survival analysis for a business and is just `churned accounts / accounts that could have churned` for each time period.
 
@@ -51,7 +53,7 @@ Use cases:
 
 [Code used for this analysis is here.](https://github.com/digital-analysis-co/dac-post-notebooks/blob/main/subscriber_lifetime_value_retention.Rmd)
 
-Since there are 24 months total history in this scenario:
+Since there are 24 months of total history in this scenario:
 
 * **Train** some parametric models on the first 12 months
 * **Test** the models against actual survival between 13 and 24 months and choose the best fit
@@ -73,9 +75,9 @@ Integrating a survival curve gives the mean expected survival time. Multiply mon
 
 Since parametric curves level off, a hard cutoff, such as 3, 4, or 5 years, must be defined before integrating.
 
-With only 24 months of history, integrating the Kaplan-Meier curve estimates survival at 20.5 months (see the table in the "Spreadsheet" section above). In contrast, integrating the mixture model’s 36-month survival curve yields an average survival of 29.6 months.
+With only 24 months of history, integrating the Kaplan-Meier curve estimates survival at 20.5 months (see the table in the "Spreadsheet" section above). In contrast, integrating the mixture model’s 36-month survival curve yields an average survival of 29.7 months.
 
-The parametric model provides a fairer estimate by extending beyond the initial 24 months of immediatley available data.
+The parametric model provides a fairer survival estimate by extending beyond the initial 24 months of immediatley available data.
 
 ![Expected Survival using Weibull](../images/subscriber_lifetime_value_retention/Weibull_Expected_Survival.png)
 
