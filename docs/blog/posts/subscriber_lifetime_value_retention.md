@@ -53,9 +53,9 @@ Use cases:
 
 Since there are 24 months total history in this scenario:
 
-* **Train** a model on the first 12 months
-* **Test** the model against actual survival between 13 and 24 months
-* Refit the chosen best fit model on the full 24 months of available data and then **Predict** out to 36 months
+* **Train** some parametric models on the first 12 months
+* **Test** the models against actual survival between 13 and 24 months and choose the best fit
+* **Predict** out to 36 months after refitting the best fit model on the full 24 months of available data
 
 The plots below show actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model I tried.
 
