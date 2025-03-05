@@ -57,7 +57,7 @@ Since there are 24 months total history in this scenario:
 * **Test** the models against actual survival between 13 and 24 months and choose the best fit
 * **Predict** out to 36 months after refitting the best fit model on the full 24 months of available data
 
-The plots below show actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model I tried.
+The plots below show actual survival in dark blue, while the lighter blue line is the predicted survival for each parametric model tried.
 
 The models were only trained on 12 months of data, so everything after 12 months on the light blue curves is extrapolated and can be compared to the actual dark blue line.
 
