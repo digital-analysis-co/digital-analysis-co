@@ -7,7 +7,7 @@ categories:
 
 # Google Analytics "(not set)" Landing Pages
 
-I was recently asked to investigate a site where landing page `(not set)` was the top page. <!-- more --> Taking a look at a few random sites I have access to, I could see that `(not set)` landing page always exists, and is often among the top 3 landing pages.
+I was recently asked to investigate a site where landing page `(not set)` was the top page. <!-- more --> Taking a look at a few sites that I have access to, I could see that `(not set)` landing page always exists, and is often among the top 3 landing pages.
 
 ![Google Analytics Landing Page Not Set](../images/google_analytics_not_set_landing_pages/ga4_not_set_landing_page.png)
 
@@ -24,3 +24,5 @@ Back on the site with `(not set)` landing pages on both existing and new users (
 ![Google Analytics Landing Page Not Set](../images/google_analytics_not_set_landing_pages/ga4_user_explorer_custom_event_before_page_view_causes_not_set.png)
 
 This was the same for all users in the segment. I've disguised the name of the culprit event here but it was a custom event configured to fire before `page_view` that was causing this to happen.
+
+In order to initiate a session with correct session scoped variables such as landing page, make sure that the `page_view` is the first event to fire.
