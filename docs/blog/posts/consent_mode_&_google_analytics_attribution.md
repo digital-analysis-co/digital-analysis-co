@@ -7,7 +7,7 @@ categories:
 
 # Cookie Consent, Google Analytics and Attribution
 
-What happens if you don’t configure a consent state for a Google Analytics (GA) tag? GA processes the data anyway. If the tag fires without a consent state set, GA assumes consent is granted, sending data normally. The data’s attribution distribution (e.g., Direct, Organic, or Paid Search) stays intact from a technical standpoint.
+What happens if you don’t configure a consent state for a Google Analytics (GA) tag? GA processes the data anyway. If the tag fires without a consent state set, GA assumes consent is granted, sending data normally. The data’s attribution distribution (e.g., Direct, Organic, or Paid Search) stays intact from a technical standpoint. <!-- more -->
 
 In reality, if intent-driven users from these channels are more likely to accept cookies instead of bouncing, you might see their proportions rise with Basic Consent Mode.
 
