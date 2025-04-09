@@ -7,20 +7,21 @@ categories:
 
 # Cookie Consent, Google Analytics and Attribution
 
-What happens if you don’t configure a consent state for a Google Analytics (GA) tag? GA processes the data anyway. If the tag fires without a consent state set, GA assumes consent is granted, sending data normally. The data’s attribution distribution (e.g., Direct, Organic, or Paid Search) stays intact from a technical standpoint. <!-- more -->
+What happens if you don’t configure a consent state for a Google Analytics (GA) tag? By default, GA processes the data as if consent were granted. Data is not impacted, though this default behavior may change in the future. <!-- more -->
 
-In reality, if intent-driven users from these channels are more likely to accept cookies instead of bouncing, you might see their proportions rise with Basic Consent Mode.
+![Google Analytics Consent Not Configured](../images/consent_mode_&_google_analytics_attribution/google_analytics_consent_not_configured.png)
 
 ## Basic and Advanced Consent Mode
 
-With basic consent mode, tags are blocked untill consent is granted, so overall traffic volume may decrease.
+[How Consent Mode Works](https://support.google.com/google-ads/answer/10000067) documentation covers basic and advanced consent mode.
+
+With basic consent mode, tags are blocked until consent is granted, so overall traffic volume may decrease. However, the attribution data distribution (e.g., Direct, Organic, or Paid Search) stays intact.
 
 Setting up [Advanced Consent Mode](https://support.google.com/google-ads/answer/10000067) allows Google tags to fire before consent acceptance using cookieless pings. Using these pings lets GA get a closer-to-complete view of all web traffic than otherwise.
 
-If basic consent mode blocks tags until acceptance, why configure it post-acceptance?
+This is done via modeling and the use of [url_passthrough](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced#passthroughs), where UTMs follow the user around from page to page till acceptance of cookies, at which point a session is initiated with the UTMs on consent update.
 
-* Google Ads personalization. Consent state is needed for retargeting campaigns
-* Peace of mind. Google may change how non-consented tags behave in the future
+In both cases you should still update consent state on acceptance to facilitate GA modeling quality and future proof your setup.
 
 ## Cookieless Pings
 
