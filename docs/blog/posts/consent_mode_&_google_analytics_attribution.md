@@ -21,7 +21,7 @@ With basic consent mode, tags are blocked until consent is granted. This may low
 
 Setting up [Advanced Consent Mode](https://support.google.com/google-ads/answer/10000067) allows Google tags to fire before consent acceptance using cookieless pings. Using these pings alongside Google Machine Learning modeling lets GA get a closer-to-complete view of all web traffic than otherwise.
 
-The [url_passthrough](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced#passthroughs) utility is used to preserve UTM, gclid or other campaign query parameters that would otherwise be stored in cookies. With `url_passthrough`, these URL parameters follow the user around from page to page untill cookie acceptance, at which point a session is initiated with the passed through parameters on consent update.
+The [url_passthrough](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced#passthroughs) utility is used to preserve UTM, gclid or other campaign query parameters that would otherwise be stored in cookies. With `url_passthrough`, these URL parameters follow the user around from page to page until cookie acceptance, at which point a session is initiated with the passed through parameters on consent update.
 
 In both cases you should still update consent state on acceptance to facilitate GA modeling quality, and to future-proof your setup.
 
