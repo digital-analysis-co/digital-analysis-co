@@ -17,7 +17,7 @@ What happens if you don’t configure a consent state for a Google Analytics (GA
 
 [How Consent Mode Works](https://support.google.com/google-ads/answer/10000067) documentation covers basic and advanced consent mode.
 
-With basic consent mode, tags are blocked until consent is granted, which may lower overall traffic volume while keeping the attribution distribution (e.g., Direct, Organic, Paid Search) technically intact. In practice, traffic may skew toward engaged channels like Direct or Search, where users are more likely to consent.
+With basic consent mode, tags are blocked until consent is granted. This may lower overall traffic volume, but the attribution distribution is not impacted technically. In practice, traffic may skew towards more engaged channels that are more likely to accept consent such as Direct, Organic or Paid Search.
 
 Setting up [Advanced Consent Mode](https://support.google.com/google-ads/answer/10000067) allows Google tags to fire before consent acceptance using cookieless pings. Using these pings alongside Google Machine Learning modeling lets GA get a closer-to-complete view of all web traffic than otherwise.
 
